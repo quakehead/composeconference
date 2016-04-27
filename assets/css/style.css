@@ -387,6 +387,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     padding-top: 100px;
 }
+
+#landingheader .view.view-melbourne {
+    background: url(../img/view-melbourne.png) no-repeat;
+}
+
 #landingheader .view {
     background: url(../img/view.png) no-repeat;
     margin-top: 0;
@@ -645,6 +650,12 @@ ul.speakers li {
     background-size: cover;
 }
 
+.portfolio.melbourne {
+	/* https://www.flickr.com/photos/visitmelbourne/12735524883/in/photolist-kpoTRe-kpoRTg-kpqF2d-okVcoM-kpo3dt-kpqFr1-dXiwYy-dXcRAX-kmLBB4-dXcRnt-pZE6Mt-kmQVsi-dXbH9m-dX63Ep-knch2H-kRbVeJ-kp2fUx-r1A9Ba-dXmnH5-knMddy-Do5W1c-hReetw-rhUDev-kMCYW4-dXiuio-dX63wH-kuZ754-mUar2h-mRHU2p-kv1JbG-r1D33n-ri1zUX-dXizvN-kpozP2-r1uFJd-r1AQ96-mU8CBV-niyvCN-knSU1E-dXbH7j-kowrfi-knYEVD-knRcEa-nYuuMF-9F5jX9-bzTWSw-93vyoF-nYMFxi-dXbHkj-knMWXT */
+	background: url(../img/photos/white-night.png) no-repeat center bottom;
+	background-size: cover;
+}
+
 .unconference {
     background: url(../img/photos/pisano_5.jpg) no-repeat center bottom;
     background-size: cover;
@@ -657,6 +668,11 @@ ul.speakers li {
 
 .talk {
     background: url(../img/photos/pisano_2.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.talk.melbourne {
+    background: url(../img/photos/melbourne-skyline-cropped.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
