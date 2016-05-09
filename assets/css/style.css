@@ -267,10 +267,14 @@ h1, h2, h3, h4, h5, h6 {
 	z-index:9;
 }
 
-#topheader #hh{
+#topheader #hh {
 	margin-top: 36px;
 	margin-bottom: 24px;
-	/*overflow: auto;*/
+}
+
+#topheader #hh.melbourne {
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .col-inner-hori {
