@@ -394,6 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #landingheader .view.view-melbourne {
     background: url(../img/view-melbourne.png) no-repeat;
+    background-position: center;
 }
 
 #landingheader .view {
