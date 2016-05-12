@@ -59,7 +59,7 @@ TODO:
       Compose Melbourne is a new functional programming conference focused on
       developing the community and bringing functional programming to a wider
       audience. It is a 2-day event being held in Melbourne, Australia on the
-      1st and 2nd of September 2016. The first day features a single track of
+      29th and 30th of August 2016. The first day features a single track of
       presentations followed by a second day of workshops and an unconference.
       It is the new sister-conference of the NY based
       <a href="http://www.composeconference.org/2016/">Compose Conference</a>.
@@ -93,8 +93,8 @@ TODO:
 - CFP Launch Party
 - CFP Opens: ???
 - CFP Closes: ???
-- Conference Day 1: Thursday, 1-Sep-2016
-- Conference Day 2: Friday, 2-Sep-2016
+- Conference Day 1: Thursday, 29-Aug-2016
+- Conference Day 2: Friday, 30-Aug-2016
 
 
 ## Talk and Workshop Submission
