@@ -141,28 +141,15 @@ TODO:
           will gain from attending your session. You should include the
           following information in the submission system:
         </p>
-        <p> You should include the following information: </p>
         <ul>
           <li> Authors - The details of each of the presenters </li>
           <li> Title - Title of the presentation (please keep it brief and specific) </li>
           <li>
             Abstract	- A 300-500 word description of your presentation, ideally including...
             <ul>
-              <li>
-                Goal: Explain in one paragraph what an attendee will learn
-                during your presentation;
-              </li>
-              <li>
-                Description: Explain in detail how your presentation will be
-                structured, what methodology and technology you will introduce,
-                what examples you will use, etc;
-              </li>
-              <li>
-                References: Is there generally available material that
-                attendees may use after the presentation to deepen their
-                understanding of the presented topic material? If so, please
-                list that material.
-              </li>
+              <li> Goal </li>
+              <li> Description of the Content</li>
+              <li> References for Attendees </li>
             </ul>
           </li>
           <li>
@@ -170,34 +157,16 @@ TODO:
             and attendees categorise your presentation. Also indicate the
             functional programming languages that you will be targeting.
           </li>
-          <li> Session Format - The type of presentation you are proposing: </li>
           <li>
             Audience - Indicate the level your talk is aimed at: Beginner, Intermediate, Advanced?
           </li>
         </ul>
-
         <p>
-          All submissions should assume that the audience has as understanding
-          of functional programming. Attendees seeking an introduction to
-          functional programming languages and techniques will have avenues to
-          learn functional programming techniques prior to the conference.
+          Nothing upsets an audience more than a speaker that stands on stage blatantly
+          promoting his or her company, product or achievements.
         </p>
-
         <p>
-          The following are some of the topic areas we are looking for submissions on:
-        </p>
-
-        <p>
-          Core functional programming – the bread and butter of the functional
-          programmer, but pushing the envelope a bit Production functional
-          programming – what cool things are being done with functional
-          programming in production systems which offer lessons to others
-          Cutting edge / different functional programming – The bleeding edge
-          of the field of functional programming as well as un-thought of
-          usages of functional programming languages and techniques Nothing
-          upsets an audience more than a speaker that stands on stage blatantly
-          promoting his or her company, product or achievements. Please keep
-          the content of your talk on-topic and do not use this speaking
+          Please keep the content of your talk on-topic and do not use this speaking
           opportunity as a sales pitch.
         </p>
       </div>
@@ -205,7 +174,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Feel </h2>
@@ -224,7 +193,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Audience </h2>
@@ -242,7 +211,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Diversity </h2>
@@ -262,7 +231,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Day One </h2>
@@ -301,7 +270,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Day Two </h2>
@@ -328,7 +297,7 @@ TODO:
   </div>
 </div>
 
-<div class="container cfpsection" id="">
+<div class="container cfpsection" >
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Sponsors </h2>
