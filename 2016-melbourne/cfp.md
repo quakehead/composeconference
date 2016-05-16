@@ -41,8 +41,6 @@ TODO:
             </a>
         </div>
     </div>
-
-    <p>Introduction</p>
 </div>
 
 
@@ -52,7 +50,7 @@ TODO:
 
     <p>
       <a href="http://www.composeconference.org/">Compose::Conference Melbourne</a>
-      2016 is pleased to announce its call for presentations.
+      is pleased to announce its call for presentations.
     </p>
 
     <p>
@@ -66,125 +64,287 @@ TODO:
     </p>
 
     <p>
-      Submit your <a href="http://www.google.com/?q=Compose+Melbourne+CFP+Submission">presentation proposal here (FIXME).</a>
+      Submit your <a href="https://easychair.org/conferences/?conf=cmc2016">presentation proposal here</a>.
     </p>
 
   </div>
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-4 name">
-  <p>Would you like to know more?</p>
-</div>
+<div class="container cfpsection" id="knowmore">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Would you like to know more?</h2>
+    </div>
 
-<div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-  <div class="col-lg-10 col-md-10 col-sm-10">
-    <p>
-      For news and announcements, or to just get in touch, please join the
-      <a href="mailing list">http://groups.google.com/group/composemel</a>.
-    </p>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          For news and announcements, or to just get in touch, please join the
+          <a href="http://groups.google.com/group/composemel">mailing list</a>.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
-<!--
+<div class="container cfpsection" id="dates">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Important Dates </h2>
+    </div>
 
-## Important Dates
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <ul>
+          <li>CFP Launch Party</li>
+          <li>CFP Opens: ???</li>
+          <li>CFP Closes: ???</li>
+          <li>Conference Day 1: Thursday, 29-Aug-2016</li>
+          <li>Conference Day 2: Friday, 30-Aug-2016</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-- CFP Launch Party
-- CFP Opens: ???
-- CFP Closes: ???
-- Conference Day 1: Thursday, 29-Aug-2016
-- Conference Day 2: Friday, 30-Aug-2016
+<div class="container cfpsection" id="submission">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Talk and Workshop Submission </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          Submit a Presentation Proposal via
+          <a href="https://easychair.org/conferences/?conf=cmc2016">
+            Easy Chair</a>.
+        </p>
+        <p>
+          Or... <a href="mailto:composemel-admin@googlegroups.com">contact us via email</a> with your proposed presentation at <code>composemel-admin@googlegroups.com</code>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container cfpsection" id="guidelines">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Submission Guidelines </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> 
+          Provide sufficient detail in your submission to enable the reviewers
+          to understand your proposal and clearly identify what an attendee
+          will gain from attending your session. You should include the
+          following information in the submission system:
+        </p>
+        <p> You should include the following information: </p>
+        <ul>
+          <li> Authors - The details of each of the presenters </li>
+          <li> Title - Title of the presentation (please keep it brief and specific) </li>
+          <li>
+            Abstract	- A 300-500 word description of your presentation, ideally including...
+            <ul>
+              <li>
+                Goal: Explain in one paragraph what an attendee will learn
+                during your presentation;
+              </li>
+              <li>
+                Description: Explain in detail how your presentation will be
+                structured, what methodology and technology you will introduce,
+                what examples you will use, etc;
+              </li>
+              <li>
+                References: Is there generally available material that
+                attendees may use after the presentation to deepen their
+                understanding of the presented topic material? If so, please
+                list that material.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Keywords - List any keywords that will help the program committee
+            and attendees categorise your presentation. Also indicate the
+            functional programming languages that you will be targeting.
+          </li>
+          <li> Session Format - The type of presentation you are proposing: </li>
+          <li>
+            Audience - Indicate the level your talk is aimed at: Beginner, Intermediate, Advanced?
+          </li>
+        </ul>
 
-## Talk and Workshop Submission
+        <p>
+          All submissions should assume that the audience has as understanding
+          of functional programming. Attendees seeking an introduction to
+          functional programming languages and techniques will have avenues to
+          learn functional programming techniques prior to the conference.
+        </p>
 
-* Easy Chair TODO Link
-* Via Email TODO Link
+        <p>
+          The following are some of the topic areas we are looking for submissions on:
+        </p>
 
-## Feel
+        <p>
+          Core functional programming – the bread and butter of the functional
+          programmer, but pushing the envelope a bit Production functional
+          programming – what cool things are being done with functional
+          programming in production systems which offer lessons to others
+          Cutting edge / different functional programming – The bleeding edge
+          of the field of functional programming as well as un-thought of
+          usages of functional programming languages and techniques Nothing
+          upsets an audience more than a speaker that stands on stage blatantly
+          promoting his or her company, product or achievements. Please keep
+          the content of your talk on-topic and do not use this speaking
+          opportunity as a sales pitch.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-We want Compose Melbourne to be all about the community. We're aiming to
-help foster the growth of Functional Programming in Melbourne and
-unite all interested parties to spark a unified presence and a feeling
-of camaraderie amongst FP and Theory proponents in this wonderful
-city!
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Feel </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          We want Compose Melbourne to be all about the community. We're aiming to
+          help foster the growth of Functional Programming in Melbourne and
+          unite all interested parties to spark a unified presence and a feeling
+          of camaraderie amongst FP and Theory proponents in this wonderful
+          city!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Audience </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          Functional-Programming and Programming-Language-Theory professionals
+          and enthusiasts.  Newcomers, experts, anyone from other disciplines of
+          fields who is interested in what FP is or how it could help them with
+          their work, or simply make life more enjoyable!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Audience
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Diversity </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          Just like Compose-Conference, we would also like to put an emphasis on
+          soliciting a diverse set of speakers - anything you can do to distribute
+          information about this CFP and encourage submissions from under-represented
+          groups would be greatly appreciated.
 
-Functional-Programming and Programming-Language-Theory professionals
-and enthusiasts.  Newcomers, experts, anyone from other disciplines of
-fields who is interested in what FP is or how it could help them with
-their work, or simply make life more enjoyable!
+          We welcome *all* (new and established) contributions and encourage you to apply!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Day One </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          All topics for proposals for presentations are invited, but not limited to
+          explore the following topics:
+        </p>
+        <h3> New Languages </h3>
+        <p>
+          The development of new and emerging Functional Languages, and the toolsets
+          around them.
+        </p>
+        <h3> Libraries and Tools </h3>
+        <p>
+          Exploring the use and development of new and underrepresented tools and
+          libraries.
+        </p>
+        <h3> Production Systems </h3>
+        <p>
+          2016 has seen many previously undeployed languages and systems break through
+          into production. We're looking for war-stories, success-stories and sob-stories!
+        </p>
+        <h3> Theory
+        </h3>
+        <p>
+          Theory is the cutting edge of new functional programming. Show the world
+          what is rising over the horizon.
+        </p>
+        <h3> Art and Music </h3>
+        <p> Exciting and innovative usage of functional programming language in the arts! </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Diversity
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Day Two </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> The second day will be dedicated to workshops and unconferences. </p>
+        <h3> Workshops </h3>
+        <p> We will be running a beginners Haskell workshop. </p>
+        <p>
+          If you wish to run a workshop on the second day of the conference, then
+          please let us know. Alternatively, if there is a workshop that would interest
+          you as an attendee, then please also let us know.
+        </p>
+        <h3> Unconference </h3>
+        <p>
+          Got something random you want to talk about? The unconference will run
+          the second day. There will be a whiteboard with spaces where anyone
+          can write their name down to speak. There's no need to bring anything
+          but yourself and your ideas and speaking voice.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-Just like Compose-Conference, we would also like to put an emphasis on
-soliciting a diverse set of speakers - anything you can do to distribute
-information about this CFP and encourage submissions from under-represented
-groups would be greatly appreciated.
-
-We welcome *all* (new and established) contributions and encourage you to apply!
-
-
-## Day One
-
-## Suggested Topics
-
-Topics for proposals for presentations are invited, but not limited to
-explore the following topics:
-
-### New Languages
-
-The development of new and emerging Functional Languages, and the toolsets
-around them.
-
-### Libraries and Tools
-
-Exploring the use and development of new and underrepresented tools and
-libraries.
-
-### Production Systems
-
-2016 has seen many previously undeployed languages and systems break through
-into production. We're looking for war-stories, success-stories and sob-stories!
-
-### Theory
-
-Theory is the cutting edge of new functional programming. Show the world
-what is rising over the horizon.
-
-### Art and Music
-
-Exciting and innovative usage of functional programming language in the arts!
-
-## Day Two
-
-The second day will be dedicated to workshops and unconferences.
-
-### Workshops
-
-We will be running a beginners Haskell workshop.
-
-If you wish to run a workshop on the second day of the conference, then
-please let us know. Alternatively, if there is a workshop that would interest
-you as an attendee, then please also let us know.
-
-### Unconference
-
-Got something random you want to talk about? The unconference will run
-the second day. There will be a whiteboard with spaces where anyone
-can write their name down to speak. There's no need to bring anything
-but yourself and your ideas and speaking voice.
-
-## Sponsors
-
-We are seeking sponsors to support us in putting on this conference. If
-you or your company would like to sponsor us, please get in contact via
-[composemel-admin@googlegroups.com](mailto:composemel-admin@googlegroups.com).
-
-You can find our prospectus [here](https://github.com/composeconference/Compose-Melbourne/blob/master/ComposeMelbourneSponsorshipProspectus.pdf).
-
--->
+<div class="container cfpsection" id="">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Sponsors </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          We are seeking sponsors to support us in putting on this conference. If
+          you or your company would like to sponsor us, please get in contact via
+          <a href="mailto:composemel-admin@googlegroups.com">composemel-admin@googlegroups.com</a>.
+        </p>
+        <p>
+          You can find our prospectus
+          <a href="https://github.com/composeconference/Compose-Melbourne/blob/master/ComposeMelbourneSponsorshipProspectus.pdf">here.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
