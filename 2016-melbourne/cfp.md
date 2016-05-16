@@ -7,10 +7,8 @@ title: Call for Proposals
 
 TODO:
 
-* Padding abover sections
-* Copy rest of CFP from comment
 * Footer
-* Bolder section headings
+* Dates
 
 -->
 
