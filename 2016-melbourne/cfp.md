@@ -15,7 +15,7 @@ TODO:
 <div id="landingheader">
 
   <br />
-  <div class="container" id="knowmore">
+  <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 name">
 

@@ -1,6 +1,6 @@
 ---
-layout: 2016/page
-title: C◦mp◦se 2016 Sponsors
+layout: 2016-melbourne/contained
+title: "C◦mp◦se :: Melbourne 2016 Sponsors"
 ---
 
 <!--
@@ -10,6 +10,10 @@ TODO:
 * Update sponsorship prospectus link to an internal page
 
 -->
+
+<h1 class="centered">Sponsors</h1>
+
+<br />
 
 C◦mp◦se :: Melbourne sponsorship directly benefits the functional programming community as
 proceeds go towards operating costs that includes speaker travel expenses,
