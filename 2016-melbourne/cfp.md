@@ -120,7 +120,8 @@ TODO:
             Easy Chair</a>.
         </p>
         <p>
-          Or... <a href="mailto:composemel-admin@googlegroups.com">contact us via email</a> with your proposed presentation at <code>composemel-admin@googlegroups.com</code>.
+          Or... <a href="mailto:composemel-admin@googlegroups.com">contact us via email</a>
+          with your proposed presentation at <code>composemel-admin@googlegroups.com</code>.
         </p>
       </div>
     </div>
