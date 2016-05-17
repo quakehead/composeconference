@@ -95,11 +95,12 @@ TODO:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <ul>
-          <li>CFP Launch Party</li>
-          <li>CFP Opens: ???</li>
-          <li>CFP Closes: ???</li>
-          <li>Conference Day 1: Thursday, 29-Aug-2016</li>
-          <li>Conference Day 2: Friday, 30-Aug-2016</li>
+          <li>CFP Launch Party - 19th May</li>
+          <li>CFP Opens - 19th May</li>
+          <li>CFP Closes - June 30th</li>
+          <li>Notify Presenters - June 15th</li>
+          <li>Conference Day 1: Presentations - Thursday, 29-Aug-2016</li>
+          <li>Conference Day 2: Unconference - Friday, 30-Aug-2016</li>
         </ul>
       </div>
     </div>
