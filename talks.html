@@ -1,3 +1,8 @@
+---
+layout: 2016/page
+title: Compose Conference 2016 Speakers
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -93,269 +98,54 @@
 
     <div class="sep talk" data-stellar-background-ratio="0.3"></div>
 
-	<! -- CONDUCT SECTION -->
-	<section id="about" name="conduct"></section>
-	<div id="aboutwrap">
-		<div class="container">
-			<div class="row">
+  <!-- CONDUCT SECTION -->
+  <section id="about" name="conduct"></section>
 
-                <section id="weirich" name="marker"></section>
+  <div id="aboutwrap">
+    <div class="container">
+      <div class="row">
 
-                <div class="col-lg-12">
-                <h1>C◦mp◦se :: Conference - All Talks</h1>
-                <p>
-                    &nbsp;
-                </p>
+        <div class="col-lg-12">
+          <h1>C◦mp◦se :: Conference - All Talks</h1>
+          <p> &nbsp; </p>
+          <hr style="border:1px dotted #ddd "/>
 
-                <hr style="border:1px dotted #ddd "/>
+          {% for t in site.data.talks.talks %}
 
-                <section id="cowley" name="marker"></section>
+            <section id="{{t.sectionid}}" name="marker"></section>
 
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6klfKLBnz9k" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Pi-Forall: How to use and implement a dependently-typed language</h2>
-                                <h3>
-                                    <a href="/2015/speakers/index.html#weirich">Dr. Stephanie Weirich</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#weirich"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                    &nbsp;
-                                </p> 
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
+            <div class="videoBlock">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          {% if t.video_url %}
+                            <iframe width="560" height="315" src="{{t.video_url}}" frameborder="0" allowfullscreen></iframe>
+                          {% endif %}
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h2>{{ t.name }}</h2>
+                            <h3>
+                                <a href="{{t.speaker_url}}">{{t.speaker}}</a>
+                                <span style="float:right"> <small>
+                                <a href="#{{t.sectionid}}"><i class="fa fa-link"></i> Permalink</a></small>
+                                </span>
+                            </h3>
+                            <p> &nbsp; </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <hr style="border:1px dotted #efefee "/>
-                <section id="christiansen" name="marker"></section>
+            <hr style="border:1px dotted #efefee "/>
 
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/2-JFkv9-JOQ" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Robots on Haskell</h2>
-                                <h3><a href="/2015/speakers/index.html#cowley">Anthony Cowley</a> 
-                                    <span style="float:right"> <small>
-                                    <a href="#cowley"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p>
-                                
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
+          {% endfor %} <!-- talk -->
 
-                <hr style="border:1px dotted #efefee "/>
-                <section id="martens" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/dP2imvL92sY" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Type providers and error reflection in Idris</h2>
-                                <h3><a href="/2015/speakers/index.html#christiansen">David Christiansen</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#christiansen"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                    <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>The code from my <a href="https://twitter.com/hashtag/ComposeConf?src=hash">#ComposeConf</a> talk is at <a href="https://t.co/QoG5EfGuU6">https://t.co/QoG5EfGuU6</a></p>&mdash; David Christiansen (@d_christiansen) <a href="https://twitter.com/d_christiansen/status/561555301875585025">January 31, 2015</a></blockquote>
-                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-
-                <hr style="border:1px dotted #efefee "/>
-                <section id="syme" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oJOYVDwSE3Q" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Modules and Abstraction in Functional Programming</h2>
-                                <h3><a href="/2015/speakers/index.html#martens">Chris Martens</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#martens"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                    <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>here are the slides from my <a href="https://twitter.com/hashtag/ComposeConf?src=hash">#ComposeConf</a> talk on modules! <a href="https://t.co/UuD93EsMqx">https://t.co/UuD93EsMqx</a></p>&mdash; chrisamaphone (@chrisamaphone) <a href="https://twitter.com/chrisamaphone/status/561592348015329280">January 31, 2015</a></blockquote>
-                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-                
-                <hr style="border:1px dotted #efefee "/>
-                <section id="kuper" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/W-D6W7EA8gw" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>The F# Approach to Relaxation</h2>
-                                <h3><a href="/2015/speakers/index.html#syme">Don Syme</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#syme"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-                
-                <hr style="border:1px dotted #efefee "/>
-                <section id="mondet" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>LVars: lattice-based data structures for deterministic parallel and distributed programming </h2>
-                                <h3><a href="/2015/speakers/index.html#kuper">Lindsey Kuper</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#kuper"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                    <blockquote class="twitter-tweet" lang="en"><p>Slides from my talk on LVars at <a href="https://twitter.com/composeconf">@composeconf</a> today: <a href="https://t.co/2Ow6wGCgmK">https://t.co/2Ow6wGCgmK</a>. Thanks to everyone at <a href="https://twitter.com/hashtag/composeconf?src=hash">#composeconf</a> for being a great audience!</p>&mdash; Lindsey Kuper (@lindsey) <a href="https://twitter.com/lindsey/status/561624468830031872">January 31, 2015</a></blockquote>
-                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-                
-                <hr style="border:1px dotted #efefee "/>
-                <section id="ransan" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MS9tx2zFEME" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Managing Bioinformatics Pipelines Within OCaml </h2>
-                                <h3><a href="/2015/speakers/index.html#mondet">Sebastien Mondet</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#mondet"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                    <blockquote class="twitter-tweet" lang="en"><p>My slides for <a href="https://twitter.com/hashtag/ComposeConf?src=hash">#ComposeConf</a> are there: <a href="http://t.co/zXXsSGmzOO">http://t.co/zXXsSGmzOO</a></p>&mdash; Sebastien Mondet (@smondet) <a href="https://twitter.com/smondet/status/561623010269224960">January 31, 2015</a></blockquote>
-                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-                
-                <hr style="border:1px dotted #efefee "/>
-                <section id="ishtiaq" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/r6mYb2w_6po" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Functional Programming at Bloomberg </h2>
-                                <h3><a href="/2015/speakers/index.html#ransan">Maxime Ransan</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#ransan"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-
-                
-                <hr style="border:1px dotted #efefee "/>
-                <section id="eliopoulos" name="marker"></section>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/knnK-llu_RE" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>Proving things about Biology</h2>
-                                <h3><a href="/2015/speakers/index.html#ishtiaq">Samin Ishtiaq</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#ishtiaq"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
-
-                <hr style="border:1px dotted #efefee "/>
-
-                <div class="videoBlock">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pTlOLO7Qhls" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h2>elm-d3: Front-end Development Without Frameworks</h2>
-                                <h3><a href="/2015/speakers/index.html#eliopoulos">Spiros Eliopoulos</a>
-                                    <span style="float:right"> <small>
-                                    <a href="#eliopoulos"><i class="fa fa-link"></i> Permalink</a></small>
-                                    </span>
-                                </h3>
-                                <p> 
-                                </p>
-                            </div>
-                        </div><! --/row --> 
-                    </div><! --/container -->
-                </div><! --/biowrap -->
+        </div>
 
 
-		      </div>
-			</div><! --/row -->
-
-
-		</div><! --/container -->
-	</div><! --/servicewrap -->
+      </div>
+    </div>
+  </div>
 
 
 	<div id="footer" style="display: block;">
