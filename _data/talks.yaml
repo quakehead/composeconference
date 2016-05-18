@@ -1,0 +1,80 @@
+talks:
+
+  - name: "Pi-Forall: How to use and implement a dependently-typed language"
+    sectionid: stephanieweirich
+    video_url: "https://www.youtube.com/embed/6klfKLBnz9k"
+    speaker: "Dr. Stephanie Weirich"
+    speaker_url: "/2015/speakers/index.html#weirich"
+    year: 2015
+    city: new_york
+
+  - name: "Robots on Haskell"
+    sectionid: anthonycowley
+    video_url: "https://www.youtube.com/embed/2-JFkv9-JOQ"
+    speaker: "Anthony Cowley"
+    speaker_url: "/2015/speakers/index.html#cowley"
+    year: 2015
+    city: new_york
+
+  - name: "Type providers and error reflection in Idris"
+    sectionid: "davidchristiansen"
+    video_url: "https://www.youtube.com/embed/dP2imvL92sY"
+    speaker: "David Christiansen"
+    speaker_url: "/2015/speakers/index.html#christiansen"
+    year: 2015
+    city: new_york
+
+  - name: "Modules and Abstraction in Functional Programming"
+    sectionid: "chrismartens"
+    video_url: "https://www.youtube.com/embed/oJOYVDwSE3Q"
+    speaker: "Chris Martens"
+    speaker_url: "/2015/speakers/index.html#martens"
+    year: 2015
+    city: new_york
+
+  - name: "The F# Approach to Relaxation"
+    sectionid: "donsyme"
+    video_url: "https://www.youtube.com/embed/W-D6W7EA8gw"
+    speaker: "Don Syme"
+    speaker_url: "/2015/speakers/index.html#syme"
+    year: 2015
+    city: new_york
+
+  - name: "LVars: lattice-based data structures for deterministic parallel and distributed programming"
+    sectionid: "lindseykuper"
+    speaker: "Lindsey Kuper"
+    speaker_url: "/2015/speakers/index.html#kuper"
+    year: 2015
+    city: new_york
+
+  - name: "Managing Bioinformatics Pipelines Within OCaml"
+    sectionid: "sebastienmondet"
+    speaker: "Sebastien Mondet"
+    speaker_url: "/2015/speakers/index.html#mondet"
+    video_url: "https://www.youtube.com/embed/MS9tx2zFEME"
+    year: 2015
+    city: new_york
+
+  - name: "Functional Programming at Bloomberg"
+    sectionid: "maximeransan"
+    video_url: "https://www.youtube.com/embed/r6mYb2w_6po"
+    speaker: "Maxime Ransan"
+    speaker_url: "/2015/speakers/index.html#ransan"
+    year: 2015
+    city: new_york
+
+  - name: "Proving things about Biology"
+    sectionid: "saminishtiaq"
+    video_url: "https://www.youtube.com/embed/knnK-llu_RE"
+    speaker: "Samin Ishtiaq"
+    speaker_url: "/2015/speakers/index.html#ishtiaq"
+    year: 2015
+    city: new_york
+
+  - name: "Elm-D3: Front-end Development Without Frameworks"
+    sectionid: "spiroseliopoulos"
+    video_url: "https://www.youtube.com/embed/pTlOLO7Qhls"
+    speaker: "Spiros Eliopoulos"
+    speaker_url: "/2015/speakers/index.html#eliopoulos"
+    year: 2015
+    city: new_york
