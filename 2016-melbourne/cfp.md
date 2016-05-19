@@ -107,8 +107,8 @@ TODO:
           <li>CFP Opens - 19th May</li>
           <li>CFP Closes - June 30th</li>
           <li>Notify Presenters - July 15th</li>
-          <li>Conference Day 1: Presentations - Thursday, 29-Aug-2016</li>
-          <li>Conference Day 2: Unconference - Friday, 30-Aug-2016</li>
+          <li>Conference Day 1: Presentations - Monday, 29-Aug-2016</li>
+          <li>Conference Day 2: Unconference - Tuesday, 30-Aug-2016</li>
         </ul>
       </div>
     </div>
