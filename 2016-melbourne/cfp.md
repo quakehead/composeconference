@@ -155,18 +155,14 @@ TODO:
           <li>
             Abstract	- A 300-500 word description of your presentation, ideally including...
             <ul>
+              <li> Description of the content</li>
               <li> Goal </li>
-              <li> Description of the Content</li>
-              <li> References for Attendees </li>
             </ul>
           </li>
           <li>
             Keywords - List any keywords that will help the program committee
             and attendees categorise your presentation. Also indicate the
             functional programming languages that you will be targeting.
-          </li>
-          <li>
-            Audience - Indicate the level your talk is aimed at: Beginner, Intermediate, Advanced?
           </li>
         </ul>
         <p>
@@ -285,7 +281,7 @@ TODO:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> The second day will be dedicated to workshops and unconferences. </p>
+        <p> The second day will be dedicated to workshops and <a href="https://en.wikipedia.org/wiki/Unconference">unconferences</a>. </p>
         <h3> Workshops </h3>
         <p> We will be running a beginners Haskell workshop. </p>
         <p>
