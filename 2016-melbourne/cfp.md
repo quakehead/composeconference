@@ -61,7 +61,7 @@ TODO:
 
         <p>
           Compose Melbourne is a new functional programming conference focused on
-          developing the community and bringing functional programming to a wider
+          developing the community and bringing typed functional programming to a wider
           audience. It is a 2-day event being held in Melbourne, Australia on the
           29th and 30th of August 2016. The first day features a single track of
           presentations followed by a second day of workshops and an unconference.
