@@ -70,7 +70,8 @@
       "twitter": "cloudRoutine ",
       "github": "cloudRoutine",
       "start_time": "2016-02-05 13:20:00",
-      "end_time": "2016-02-05 14:10:00"
+      "end_time": "2016-02-05 14:10:00",
+      "youtubeId": "XMvSR-oRjzQ"
     },
     {
       "name": "Leonid Rozenberg",
@@ -89,7 +90,8 @@
 
       I will briefly discuss the design and implementation of GHCJSi and demonstrate how to use the REPL for browser-based Haskell development, making use of various GHCJS libraries.",
       "start_time": "2016-02-05 12:30:00",
-      "end_time": "2016-02-05 13:20:00"
+      "end_time": "2016-02-05 13:20:00",
+      "youtubeId": "x7dQVZiWjvA"
     },
     {
       "name": "Markus Mottl",
@@ -124,7 +126,8 @@
       "twitter": "nikivazou",
       "github": "nikivazou",
       "start_time": "2016-02-05 14:10:00",
-      "end_time": "2016-02-05 15:00:00"
+      "end_time": "2016-02-05 15:00:00",
+      "youtubeId": "LEsEME7JwEE"
     },
     {
       "name": "Paulmichael Blasucci",
