@@ -143,6 +143,8 @@ TODO:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>Talk slots will be 30 minutes: 25 minute talk and 5 minutes for questions.
+        </p>
         <p> 
           Provide sufficient detail in your submission to enable the reviewers
           to understand your proposal and clearly identify what an attendee
