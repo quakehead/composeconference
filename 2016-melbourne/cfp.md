@@ -57,7 +57,7 @@ TODO:
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
             <a class="haskell" href="http://elixir-lang.org/">
             <img class="img-responsive" src="/assets/img/logos/elixir_color.png">
-            Elixr
+            Elixir
             </a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
