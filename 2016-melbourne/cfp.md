@@ -66,10 +66,28 @@ TODO:
             Scala
             </a>
         </div>
+      </div>
+
+      <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
             <a class="sml" href="http://www.idris-lang.org/">
             <img class="img-responsive" src="/assets/img/logos/idris_color.png">
             Idris
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="sml" href="http://www.purescript.org/">
+            <img class="img-responsive" src="/assets/img/logos/purescript_color.png">
+            Purescript
+            </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="sml" href="http://wiki.portal.chalmers.se/agda/pmwiki.php">
+            <img class="img-responsive" src="/assets/img/logos/agda_color.png">
+            Agda
             </a>
         </div>
       </div>
