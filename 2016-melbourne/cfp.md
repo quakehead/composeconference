@@ -46,6 +46,34 @@ TODO:
             </a>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="haskell" href="http://elm-lang.org/">
+            <img class="img-responsive" src="/assets/img/logos/elm_color.png">
+            Elm
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="haskell" href="http://elixir-lang.org/">
+            <img class="img-responsive" src="/assets/img/logos/elixir_color.png">
+            Elixr
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="haskell" href="http://www.scala-lang.org/">
+            <img class="img-responsive" src="/assets/img/logos/scala_color.png">
+            Scala
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="sml" href="http://www.idris-lang.org/">
+            <img class="img-responsive" src="/assets/img/logos/idris_color.png">
+            Idris
+            </a>
+        </div>
+      </div>
+
     </div>
 
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
