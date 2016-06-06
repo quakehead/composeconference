@@ -90,6 +90,12 @@ TODO:
             Agda
             </a>
         </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+            <a class="sml" href="https://coq.inria.fr/">
+            <img class="img-responsive" src="/assets/img/logos/coq_color.png">
+            Coq
+            </a>
+        </div>
       </div>
 
     </div>
