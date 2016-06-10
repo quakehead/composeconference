@@ -43,12 +43,12 @@ title: "Frequently Asked Questions"
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p>
-          We've endevoured to answer this question already for you by describing the themes and
+          We've endeavoured to answer this question already for you by describing the themes and
           formats we're looking for in presentations on <a href="/2016-melbourne/cfp">the CFP page</a>.
           If you haven't already, please take a look and see if your topic sounds like it would be appropriate.
         </p>
         <p>
-          The most common questions we've recieved on this topic have been...
+          The most common questions we've received on this topic have been...
         </p>
         <blockquote>
           I want to give a talk about something related to LANGUAGE.
@@ -64,7 +64,7 @@ title: "Frequently Asked Questions"
         </p>
         <p>
           Proposals are not solely restricted to statically-typed languages, or the languages
-          with their logos included on the home-page of CFP page, however,
+          with their logos included on the home-page or CFP page, however,
           please keep in mind the audience, themes, and the fact that the submission
           reviewers will try to select presentations in line with these.
         </p>
