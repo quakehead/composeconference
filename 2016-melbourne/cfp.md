@@ -219,6 +219,7 @@ TODO:
             functional programming languages that you will be targeting.
           </li>
         </ul>
+        <p> You are not required to have a paper accompanying your presentation. </p>
         <p>
           Nothing upsets an audience more than a speaker that stands on stage blatantly
           promoting his or her company, product or achievements.

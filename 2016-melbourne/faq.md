@@ -76,6 +76,26 @@ title: "Frequently Asked Questions"
 <div class="container cfpsection" id="guidelines">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Do I need to have an academic paper accompanying my presentation? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> No. </p>
+        <p> An paper is not required in order to present at Compose :: Melbourne. </p>
+        <p>
+          If you do have a paper that your presentation is based on
+          then this is also fine, but special consideration won't be given simply
+          because of the presence of a paper. Consideration will primarily be based
+          on the expected fit and impact of the proposed presentation.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection" id="guidelines">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> How can I register for the unconference? </h2>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
