@@ -81,7 +81,7 @@ title: "Frequently Asked Questions"
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p> No. </p>
-        <p> An paper is not required in order to present at Compose :: Melbourne. </p>
+        <p> A paper is not required in order to present at Compose :: Melbourne. </p>
         <p>
           If you do have a paper that your presentation is based on
           then this is also fine, but special consideration won't be given simply
