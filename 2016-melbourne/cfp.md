@@ -157,7 +157,7 @@ TODO:
         <ul>
           <li>CFP Launch Party - 19th May</li>
           <li>CFP Opens - 19th May</li>
-          <li>CFP Closes - June 30th</li>
+          <li>CFP Closes - <strike>June 30th</strike> July 11th</li>
           <li>Notify Presenters - July 15th</li>
           <li>Conference Day 1: Presentations - Monday, 29-Aug-2016</li>
           <li>Conference Day 2: Unconference - Tuesday, 30-Aug-2016</li>
