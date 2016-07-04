@@ -152,6 +152,9 @@ TODO:
           Please keep the content of your talk on-topic and do not use this speaking
           opportunity as a sales pitch.
         </p>
+        <p>
+          <strong>Note: Accepted presenters will not be required to purchase a ticket.</strong>
+        </p>
       </div>
     </div>
   </div>
