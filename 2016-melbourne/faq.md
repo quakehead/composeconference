@@ -73,7 +73,7 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
-<div class="container cfpsection" id="guidelines">
+<div class="container cfpsection" id="faq-paper">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Do I need to have an academic paper accompanying my presentation? </h2>
@@ -93,7 +93,27 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
-<div class="container cfpsection" id="guidelines">
+<div class="container cfpsection" id="faq-speaker-ticket">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Do speakers have to buy a ticket? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> No. </p>
+        <p> If you are accepted to speak at Compose :: Melbourne then you are
+            not required to buy a ticket. </p>
+        <p>
+          If you submit a presentation proposal that is not accepted and wish to attend,
+          then you will still be required to purchase a ticket. Note that our capacity
+          means that tickets should be available well after the announcement of speakers.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection" id="faq-register-unconference">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> How can I register for the unconference? </h2>
@@ -114,7 +134,7 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
-<div class="container cfpsection" id="guidelines">
+<div class="container cfpsection" id="faq-day-2">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Where is the information about the 2nd day? </h2>
@@ -135,7 +155,7 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
-<div class="container cfpsection" id="guidelines">
+<div class="container cfpsection" id="faq-audience">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> Who will the audience be? </h2>
