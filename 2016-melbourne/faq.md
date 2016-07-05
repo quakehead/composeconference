@@ -113,6 +113,22 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
+<div class="container cfpsection" id="faq-speaker-flights">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Will speakers flights and accommodation be paid for? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> We will evaluate subsidising flights and accommodation on a case-by-case basis. </p>
+        <p> This will be subject to need and available budget. </p>
+        <p> <a href="mailto:composemel-admin@googlegroups.com"> Contact us</a>
+          regarding this topic if you have any questions. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container cfpsection" id="faq-register-unconference">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
