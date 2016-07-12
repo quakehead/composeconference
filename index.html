@@ -141,7 +141,7 @@ TODO
 						</p>
 					</div>
 
-					<div class="col-sm-8 block">
+					<div class="col-sm-8 col-xs-12 block">
 						<div class="news">
 							<table style="margin: auto;">
 								{% for post in site.posts %}
@@ -149,7 +149,7 @@ TODO
 										<td style="padding: 0 2em; text-align: left;">
 											<a style="font-weight: bold;" href="{{ post.url }}">{{ post.title }}</a>
 										</td>
-										<td> {{ post.date | date: "%b %-d, %Y" }} </td>
+										<td class="hidden-xs hidden-sm"> {{ post.date | date: "%b %-d, %Y" }} </td>
 									</tr>
 								{% endfor %}
 							</table>
