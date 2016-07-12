@@ -446,7 +446,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #landingheader .block{
-    margin-top:10px;
+	margin-top:10px;
+	margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -455,11 +456,16 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#landingheader .block > div{
+#landingheader .block {
+	overflow: hidden;
+}
+
+#landingheader .block > div {
     color: #fff;
     text-align: center;
     vertical-align: center;
     padding-top:30px;
+    padding-bottom:0px;
     min-height: 185px;
     border-radius: 3px;
     text-align: center;
@@ -471,6 +477,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #landingheader .block .submit{
     background: #0aa574;
+}
+
+#landingheader .block .news{
+    background: #053c2d;
 }
 
 #landingheader .block .volunteer{

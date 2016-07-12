@@ -1,0 +1,46 @@
+---
+layout: 2016-melbourne/news-post
+title:  "Melbourne Keynote Announced!"
+---
+
+Our invited keynote will be given by
+<a href="http://www.cse.unsw.edu.au/~chak/">Manuel M T Chakravarty</a>, titled: <br />
+"<b>Playing with Graphics and Animations in Haskell</b>".
+
+<br />
+
+<a href="http://www.cse.unsw.edu.au/~chak/">
+	<img
+		src="/assets/img/people/manuel.jpg"
+		class="center-block img-responsive" /></a>
+
+<br />
+
+Manuel M T Chakravarty is an Associate Professor at the University of
+New South Wales. His core research interests are functional
+programming, novel compiler technology, and high-performance computing.
+He graduated from the University of Karlsruhe and received a doctoral
+degree from the Berlin Institute of Technology. His major contributions
+include work on Haskell’s foreign function interface, the <strong>C&nbsp;→&nbsp;Haskell</strong>
+binding generator, the theory and implementation of type families in
+the Glasgow Haskell Compiler, and the development of multiple systems
+for data parallel programming of multicore CPUs and GPUs, including
+Accelerate, Data Parallel Haskell, and Repa.
+
+He is the principal author
+of the interactive development environment
+<a href="http://haskellformac.com/">Haskell for Mac</a> and he is
+excited by the opportunities presented by the Swift programming
+language. Most importantly, he believes in the fruitful combination of
+theory and practice.
+
+<!--
+<div class="row">
+	<br /> <br />
+	<div class="col-md-offset-2 col-md-8 centered" >
+		<div class="flex-video widescreen">
+			 <iframe src="https://youtube.com/embed/9TIaMRis8J0?list=PL_eJ0XdLbWzzq_03wTIMVew1gByub_wKS" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+-->

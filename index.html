@@ -131,6 +131,32 @@ TODO
 						</div>
 					</div>
 				</div>
+
+				<div class="row">
+
+					<div class="col-md-4 col-sm-4 unconfblock">
+						<h4> News! </h4>
+						<p style="font-size:13px">
+							The latest news and announcements related to Compose!
+						</p>
+					</div>
+
+					<div class="col-sm-8 block">
+						<div class="news">
+							<table style="margin: auto;">
+								{% for post in site.posts %}
+									<tr>
+										<td style="padding: 0 2em; text-align: left;">
+											<a style="font-weight: bold;" href="{{ post.url }}">{{ post.title }}</a>
+										</td>
+										<td> {{ post.date | date: "%b %-d, %Y" }} </td>
+									</tr>
+								{% endfor %}
+							</table>
+						</div>
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div><!-- row -->
