@@ -1,0 +1,22 @@
+---
+layout: 2016-melbourne/news-post
+title:  "Melbourne 2016 CFP Closed!"
+---
+
+We have received 31 outstanding presentation proposals and are now in the
+painstaking process of reviewing submissions to determine to schedule
+for Day-One of Compose :: Melbourne 2016!
+
+We will be responding to presenters on Friday and will then be announcing
+the speakers and presentations shortly. We're very excited to promote
+a fantastic showcase of talks that we have received and are looking foward
+to sharing them with you all!
+
+We've had presentations submitted involving Haskell,
+ Scala, Elm, Purescript, Java, Pawns,
+ Mercury, Stanza, Coq, Clojure, Isabelle,
+ HOL, Plasma, Ruby and Swift.
+
+While we won't be able to fit in all of the proposed presentations on
+Day-One, we're hoping that the Day-Two unconference allows even more
+of the proposals to be shared with the Compose :: Melbourne audience.

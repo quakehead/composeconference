@@ -27,8 +27,10 @@ TODO:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
 
-        <h1>Call for Presentations</h1>
+        <h1>Call for Presentations (Closed)</h1>
         <br />
+
+        <h3> <strong> Note: The Melbourne 2016 CFP is now closed! </strong> </h3>
 
         <p>
           <a href="http://www.composeconference.org/">Compose::Conference Melbourne</a>

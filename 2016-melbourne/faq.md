@@ -129,27 +129,6 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
-<div class="container cfpsection" id="faq-register-unconference">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2> How can I register for the unconference? </h2>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          We're still finalising the venue for the second day of the conference.
-          Once this has been done then we will create an Eventbrite event for
-          the second day of workshops and unconference.
-          This is currently our top-priority.
-        </p>
-        <p>
-          For more information, see the <a href="/2016-melbourne/unconference">Unconference page</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container cfpsection" id="faq-day-2">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
@@ -165,6 +144,30 @@ title: "Frequently Asked Questions"
         <p>
           The second day will include workshops, tutorials, and ad-hoc
           presentations in an unconference format.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection" id="faq-register-unconference">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> How can I register for the unconference? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          The venue of the unconference has now been finalised.
+          We are now creating Eventbrite events for
+          the second day of workshops at the unconference.
+        </p>
+        <p>
+          While we will require (free) registration for the workshops,
+          the unconference itself will not require any registration!
+        </p>
+        <p>
+          For more information, see the <a href="/2016-melbourne/unconference">Unconference page</a>.
         </p>
       </div>
     </div>
