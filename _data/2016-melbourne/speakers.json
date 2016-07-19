@@ -1,0 +1,333 @@
+{ "times": [
+	{ "time": "9:00am" , "name": "Noon Silk" , "id": "t-0900", "title": "Introduction by the Committee",
+		"details": "Welcome to Compose :: Melbourne!",
+		"committee": true},
+
+	{ "time": "9:30am" , "name": "M.M.T Chakravarty" , "id": "t-0930", "title": "Keynote - Playing with Graphics and Animations in Haskell",
+		"img": "/assets/img/people/manuel.jpg",
+		"bio": "
+			<p>Manuel M T Chakravarty is an Associate Professor at the University of
+			New South Wales. His core research interests are functional programming,
+			novel compiler technology, and high-performance computing. He graduated
+			from the University of Karlsruhe and received a doctoral degree from the
+			Berlin Institute of Technology. His major contributions include work on
+			Haskell’s foreign function interface, the C->Haskell binding generator,
+			the theory and implementation of type families in the Glasgow Haskell
+			Compiler, and the development of multiple systems for data parallel
+			programming of multicore CPUs and GPUs, including Accelerate, Data
+			Parallel Haskell, and Repa. </p>
+
+			<p>He is the principal author of the interactive development environment
+			Haskell for Mac and he is excited by the opportunities presented by the
+			Swift programming language. Most importantly, he believes in the fruitful
+			combination of theory and practice. </p>
+			"
+	},
+
+	{ "time": "10:15am", "name": "<hr />", "id": "t-1015", "title": "Break", "break": true},
+
+	{ "time": "10:30am", "name": "Sharon Holliday", "id": "t-1030", "title": "Practical Programming in an Exception Free World",
+		"img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
+		"details": "
+			<p> One of the first lessons we are taught in FP is that all functions should be
+				“referentially transparent”. Amongst other implications, this means a function
+				can’t throw an exception. Great in theory, but often, in the real world, we
+				know we can get errors. A file read may fail, data may be missing from our
+				repository, a network error may occur in a remote call, so how do we model
+				this? For those of us that are writing robust, stable production code, surely
+				this makes our life more difficult? </p>
+			<p>
+				Based on our production Scala code, this talk takes an in depth, practical look
+				beyond how we handle a single function that can return an error, to how we can
+				compose these simple functions into larger functions and whole systems, while
+				avoiding an explosion of complexity. On the way we will visit a number of
+				generic functions available to us through monad and applicative types, and gain
+				an understanding of the power and increased productivity these tools give us.
+				The talk will be a category theory free zone, with examples using Scala and the
+				scalaz library, aiming to show the value of monads in a practical scenario. </p>
+			",
+		"bio": "
+				Sharon is a Lead Developer at REA Group where she is currently writing
+				Scala for their production systems. After more than 10 years as a Java
+				software engineer, she undertook brief forays into ruby and javascript,
+				before discovering the joys of Scala and the elegance of FP.	
+			"
+	},
+
+	{ "time": "11am"   , "name": "Paul Bone", "id": "t-1100", "title": "Plasma Programming Language",
+		"img": "/assets/img/2016-melbourne/speakers/Paul-Bone.jpeg",
+		"bio": "
+			Paul is a talented software engineer interested in declarative
+			programming, programming language implementation, parallelism and
+			concurrency. He completed his Ph.D. in 2013 on Automatic Parallelisation
+			for Mercury, a pure logic / functional language. Paul wants to make
+			declarative programming more accessible for beginners and more powerful
+			for experienced developers, he hopes that Plasma can help to achieve
+			this.
+			",
+		"details": "
+			Plasma is a very new, pure, strongly-typed programming language that
+			strikes a compromise between imperative and declarative programming. We
+			aim to create a language with the safety guarantees of a typed purely
+			functional language, but that is easier to learn and use. Plasma will
+			feature many conveniences found in both paradigms including: loops,
+			arrays, first class functions and coroutines. Our second goal is to create
+			a language and tools that makes parallel and concurrent programming easy
+			and safe. Plasma will provide useful language features and many
+			abstractions for concurrent and parallel programming.
+		"
+	},
+
+	{ "time": "11:30am", "name": "Alistair Roche", "id": "t-1130", "title": "Datomic in Production",
+		"bio": "
+			<p>
+				Alistair has given talks before at MelbJS, MelbJVM, MFUG, clj-melb,
+				Manilla JS and Decompress on a range of topics.
+			</p>
+		",
+		"details": "
+			<p>
+				We've been using Datomic in production for nine months now, and this
+				talk is an experience report. Datomic is an immutable database with
+				a logic-programming-based query language. Lots of Clojurists have
+				played with it, but there aren't many in Australia who've dealt with
+				it day-to-day serving real customers. 
+			</p>
+
+			<p>
+				It's been interesting, and fun, but there have been headaches and
+				pitfalls, and things I wish I'd done differently from the outset of
+				the project. 
+			</p>
+
+			<p>
+				Things I can cover: 
+			</p>
+
+			<ul>
+				<li>How we combine it with DataScript in the browser to share transactional logic and validations </li>
+				<li>What deployment looks like </li>
+				<li>How we make use of its unusual time model to do things that would otherwise require denormalisation </li>
+				<li>Tradeoffs we made initially (and have discovered since) when comparing it to traditional relational DBs </li>
+				<li>How its declarative “pull syntax” makes it easy to hydrate React components </li>
+				<li>Mistakes we made with the DB schema, and how we fixed those (including data migrations) </li>
+			</ul>
+			"
+	},
+
+	{ "time": "12pm"   , "name": "<hr />"            , "id": "t-1200", "title": "Lunch", "break": true},
+
+	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud Haskell to build a continuous integration platform for reproducible research",
+		"details": "
+			<p>Cloud Haskell is a collection of libraries that have brought erlang
+			style networking patterns to the haskell language. The libraries bring
+			together the best of haskell’s strong typing, with an opinionated
+			approach to building distributed applications. I will provide an
+			experience report on how we have used cloud haskell, and haskell in
+			general, to build a continuous integration platform to support the rest
+			of our data science work. The project has been successful in our
+			organisation, and is starting to be used by other partner organisations.
+			I believe that haskell has helped development by making it easy to
+			refactor, while also being extremely reliable in production. Cloud
+			haskell has allowed us to scale up to hundreds of compute nodes, and tens
+			of thousands of computations in parallel, without changing any code. </p>
+
+			<p> Haskell is now an essential tool at Dragonfly Data Science. I will
+			also discuss our experience with building up haskell skills across our
+			team, and across a range of projects. </p>
+
+			<p> Dragonfly is a data science team that combines research science and
+			software development experience. We are committed to realising the
+			benefits of using reproducible methods for all our work, for ourselves,
+			our clients, and the general community. </p> "},
+
+	{ "time": "1:30pm" , "name": "Harald Sondergaard", "id": "t-1330", "title": "Equational reasoning and intended semantics in functional programming",
+		"details": "
+			<p>A major advantage of functional programming languages is that they allow for
+			analysis and transformation based on 'equational reasoning'; an idea that has
+			deep roots in computing history. In his seminal Turing Award lecture from 1977,
+			John Backus advocated the functional style over traditional 'von Neumann'
+			languages, citing algebraic program manipulation as a major selling point.
+			Similar ideas were further expanded in the Bird-Meertens formalism, fondly
+			known as 'squiggol', yielding an elegant calculus for iterative program
+			construction. The use of simple equational laws is very attractive, even if
+			the presence of 'undefined' values sometimes violate such laws: Danielsson et
+			al. have shown that, in a precise sense, equational reasoning is still
+			justified. In their words, 'fast and loose reasoning is morally correct'.</p>
+
+			<p>There are, however, circumstances where programmer intent needs to be taken
+			into account. Programmers routinely make tacit assumptions about what may or
+			may not happen when a program runs, making liberal use of deliberate
+			under-specification. For example, when coding a merge function we typically
+			assume the arguments are sorted lists. The under-specification or \"don't care\"
+			status of a computation is best seen as a dual to undefinedness. It can
+			manifest itself during debugging, for example, when a programmer is required to
+			judge the correctness of an expression that violates a precondition (such as
+			merge applied to unsorted lists), and therefore has no particular intended
+			meaning.</p>
+
+			<p>We argue that, in the context of a 'programmer-intended semantics' which is
+			usually partial, certain kinds of reasoning with equality are inappropriate and
+			that equality should instead be replaced by a partial ordering of values taking
+			\"don't care\" into account. In our presentation we aim to explain what goes
+			wrong with naive equational reasoning in the presence of under-specification,
+			how it can be adapted to avoid these pitfalls, and the influence on how we
+			think about our code and design programming environments, including tools for
+			testing, debugging and verification.</p> "
+	
+	},
+
+	{ "time": "2pm", "name": "Ben Hutchison", "id": "t-1400", "title": "Getting work done with the Eff monad in Scala",
+		"img": "/assets/img/2016-melbourne/speakers/Ben-Hutchison.png",
+		"bio": "
+				Ben Hutchison works as Lead Developer of the Consumer Data team at REA Group in
+				Melbourne. He has coordinated the Melbourne Scala user group the past 7 years.
+				Ben maintains and/or contributes to a number of open source Scala projects. His
+				particular engineering interests include strong static typing, Scala in the
+				browser client, applying functional programming & type-classes, and the
+				redemption of relational databases. ",
+		"details": "
+			
+				<p>
+					This talk introduces the Eff monad via Eff-cats Scala library, and
+					gives a sense of how use it to solve practical programming problems.
+				</p>
+
+				<p>
+					The
+					<a href='https://github.com/atnos-org/eff-cats'> Eff-cats </a>
+					library is an
+					implementation of the Freer monad concept in Scala, developed by Eric
+					Torreborre. It is inspired by Oleg Kiselyov's Haskell paper
+					<a href='http://okmij.org/ftp/Haskell/extensible/more.pdf'>
+						'Freer Monads, More Extensible Effects'
+					</a>.
+					Like Monad Transformer stacks and the Free monad, it provides an organising
+					principle for the construction of pure functional programs. It has a number of
+					desirable qualities: 
+				</p>
+
+				<ul>
+					<li>Purity: the construction of the program is decoupled from its interpretation </li>
+					<li>Type-safety: Effects such as error handling or asychronicity are visible in the type signatures </li>
+					<li>Flexible effect stacks: the final effect stack members can be varied without unduly affecting local code </li>
+					<li>Performance: scales gracefully, as the program is stored as a Vector of continuations </li>
+					<li>Flexible evaluation: effects interpretation can be reordered without rewriting the program </li>
+				</ul>
+
+				<p>
+					This talk focuses on what code written using the Eff monad looks and feels
+					like. It covers several common Eff 'effects' including
+				</p>
+
+				<ul>
+					<li>Using Reader effects for dependency injection </li>
+					<li>Using Either effects for error handling </li>
+					<li>State effects for stateful computation </li>
+				</ul>
+
+				<p> It will also demonstrate some challenges that arise when using Eff and how to tackle them: </p>
+
+				<ul>
+					<li>Adding new effects to an existing program </li>
+					<li>Mixing Eff-based and non-Eff modules together</li>
+				</ul>
+			"},
+
+	{ "time": "2:30pm" , "name": "<hr />"            , "id": "t-1430", "title": "Break", "break": true},
+
+	{ "time": "3pm"    , "name": "Will Fancher", "id": "t-1500", "title": "Fraxl - Better Concurrency and Caching for Free",
+		"details": "
+			Fraxl approaches remote data access with a free monad designed to parallelize
+			with Applicative. By using highly general components, Fraxl is designed to
+			compose well, ensure type safety, and be easy to test with. Fraxl is inspired
+			by Facebook's Haxl library. The goal is to decompose Haxl into more general
+			parts, in order to form a stronger composition with better type safety and
+			purity. "
+			
+		},
+
+	{ "time": "3:30pm" , "name": "George Wilson"     , "id": "t-1530", "title": "The Extended Functor Family",
+		"img": "/assets/img/2016-melbourne/speakers/George-Wilson.jpg",
+		"bio": "
+			George Wilson is an enthusiastic functional programmer from Brisbane. George
+			engineers web services at Ephox by day, and waxes poetic about lenses and all
+			things Haskell at Brisbane Functional Programming Group by night. ",
+		"details": "
+			Functors are ubiquitous in modern strongly-typed functional programming. Every
+			Haskell beginner will come across them as one of the first typeclasses introduced.
+			Stronger structures such as Applicative and Monad often steal the
+			spotlight, but there are many structures related to the humble Functor that go
+			unnoticed. The goal of this talk is to show off and give an intuition for some
+			of these other structures: contravariant functors, bifunctors, and profunctors.
+			With some of these making their way into Haskell’s standard library recently,
+			now is a perfect time to be introduced to or brush up on these concepts. Code
+			examples will use Haskell, but these techniques extend to any language with
+			typeclasses or a similar mechanism, such as Scala’s implicits."},
+
+	{ "time": "4pm"    , "name": "<hr />"            , "id": "t-1430", "title": "Break", "break": true},
+
+	{ "time": "4:15pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
+		"details": "
+			<p>Manipulating immutable data structures can involve laborious
+			pattern-matching and copying. Functional optics such as isos, lenses,
+			prisms, traversals and folds help us compose data manipulations.
+			Manipulations can include getting, setting or modifying. </p>
+
+			<p>This presentation will show examples of optics used in production
+			business applications. It will start with PureScript's 'pure profunctor
+			lenses' library, then move on to examples in the Haskell, Scala and Java
+			optics libraries, acknowledging the increasing compromises of each. </p>
+"	},
+
+	{ "time": "4:45pm" , "name": "Kris Jenkins", "id": "t-1645", "title": "Types All The Way Down",
+		"img": "/assets/img/2016-melbourne/speakers/Kris-Jenkins.jpg",
+		"bio": "
+			Kris Jenkins is a successful startup cofounder, turned freelance functional
+			programmer, and open-source enthusiast. He mostly works building user
+			interfaces in ClojureScript & Elm, improving the world one project at a time. ",
+		"details": "
+			<p>In web development, a great deal of effort is spent on 
+			consistency. The frontend, backend and database must all agree on a 
+			data-model, and if they don't, the system crashes spectacularly. </p>
+
+			<p>The default solutions are either to invest heavily in hand-written 
+			integration tests, or use JavaScript everywhere. Neither of these are 
+			ideal. However there is a compelling alternative - use the same types 
+			everywhere. </p>
+
+			<p>By reusing strong, static types across tiers, we can make guarantees 
+			about the consistency of the entire system, and dramatically lower the 
+			cost of change. </p>
+
+			<p>We present one approach that uses Haskell data types to drive a both 
+			a PostgreSQL database schema and a frontend system written in 
+			Elm. With one set of types to rule them all, whole system consistency 
+			is automatic and reliable, and the cost of changing types - and hence 
+			evolving the whole system's data model - is dramatically reduced. </p>
+			"},
+
+	{ "time": "5:15pm" , "name": "Sean Seefried", "id": "t-1715", "title": "The joy of refactoring with strong, static types",
+		"bio": "
+			Sean has been interested in functional programming since 2001
+			He is attracted to both their elegance and safety and believes that they
+			are helping push forward the frontier of programming. ",
+		"details": "
+			<p>Fans of strongly statically typed languages will tout the benefits of their
+			type system such as: mistakes are detected earlier, types serve as a form of
+			machine-checked documentation, increased run-time efficiency, and so on. But a
+			point that is sometimes missed is that types make refactoring your code much
+			easier. This is important since maintaining a program is a huge part of its
+			life cycle! </p>
+
+			<p> In this talk I will refactor two small programs live. One will be written in
+			Haskell, which has a strong static type system, and the other in Ruby, which
+			has a dynamic type system and somewhat 'loose'. The programs will be written to
+			be as close in functionality and structure as possible. I will then propose a
+			change to the API of the programs for which a refactor will be required. I will
+			then demonstrate the markedly different experience that a somewhat error prone
+			developer will have when refactoring the two programs. </p> "},
+
+	{ "time": "5:45pm" , "name": "Noon Silk"         , "id": "t-1745", "title": "Closing Comment", "committee": true},
+
+	{ "time": "6pm"    , "name": "<hr />"            , "id": "t-1430", "title": "Walk Out", "break": true} ] }
