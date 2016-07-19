@@ -117,7 +117,7 @@
 
 	{ "time": "12pm"   , "name": "<hr />"            , "id": "t-1200", "title": "Lunch", "break": true},
 
-	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud Haskell to build a continuous integration platform for reproducible research",
+	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud-Haskell to Build a Continuous-Integration Platform for Reproducible Research",
 		"details": "
 			<p>Cloud Haskell is a collection of libraries that have brought erlang
 			style networking patterns to the haskell language. The libraries bring
@@ -141,7 +141,7 @@
 			benefits of using reproducible methods for all our work, for ourselves,
 			our clients, and the general community. </p> "},
 
-	{ "time": "1:30pm" , "name": "Harald Sondergaard", "id": "t-1330", "title": "Equational reasoning and intended semantics in functional programming",
+	{ "time": "1:30pm" , "name": "Harald Sondergaard", "id": "t-1330", "title": "Equational Reasoning and Intended Semantics in Functional Programming",
 		"details": "
 			<p>A major advantage of functional programming languages is that they allow for
 			analysis and transformation based on 'equational reasoning'; an idea that has
@@ -177,7 +177,7 @@
 	
 	},
 
-	{ "time": "2pm", "name": "Ben Hutchison", "id": "t-1400", "title": "Getting work done with the Eff monad in Scala",
+	{ "time": "2pm", "name": "Ben Hutchison", "id": "t-1400", "title": "Getting Work Done with the Eff Monad in Scala",
 		"img": "/assets/img/2016-melbourne/speakers/Ben-Hutchison.png",
 		"bio": "
 				Ben Hutchison works as Lead Developer of the Consumer Data team at REA Group in
@@ -307,7 +307,7 @@
 			evolving the whole system's data model - is dramatically reduced. </p>
 			"},
 
-	{ "time": "5:15pm" , "name": "Sean Seefried", "id": "t-1715", "title": "The joy of refactoring with strong, static types",
+	{ "time": "5:15pm" , "name": "Sean Seefried", "id": "t-1715", "title": "The Joy of Refactoring with Strong, Static Types",
 		"bio": "
 			Sean has been interested in functional programming since 2001
 			He is attracted to both their elegance and safety and believes that they
