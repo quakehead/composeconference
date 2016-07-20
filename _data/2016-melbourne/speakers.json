@@ -244,7 +244,8 @@
 
 	{ "time": "2:30pm" , "name": "<hr />"            , "id": "t-1430", "title": "Break", "break": true},
 
-	{ "time": "3pm"    , "name": "Will Fancher", "id": "t-1500", "title": "Fraxl - Better Concurrency and Caching for Free",
+	{ "time": "3pm", "name": "Will Fancher", "id": "t-1500", "title": "Fraxl - Better Concurrency and Caching for Free",
+		"hide": true,
 		"details": "
 			Fraxl approaches remote data access with a free monad designed to parallelize
 			with Applicative. By using highly general components, Fraxl is designed to
@@ -255,7 +256,7 @@
 			
 		},
 
-	{ "time": "3:30pm" , "name": "George Wilson"     , "id": "t-1530", "title": "The Extended Functor Family",
+	{ "time": "3:00pm" , "name": "George Wilson", "id": "t-1500", "title": "The Extended Functor Family",
 		"img": "/assets/img/2016-melbourne/speakers/George-Wilson.jpg",
 		"bio": "
 			George Wilson is an enthusiastic functional programmer from Brisbane. George
@@ -273,9 +274,7 @@
 			examples will use Haskell, but these techniques extend to any language with
 			typeclasses or a similar mechanism, such as Scala’s implicits."},
 
-	{ "time": "4pm"    , "name": "<hr />"            , "id": "t-1430", "title": "Break", "break": true},
-
-	{ "time": "4:15pm" , "name": "Kris Jenkins", "id": "t-1645", "title": "Types All The Way Down",
+	{ "time": "3:30pm" , "name": "Kris Jenkins", "id": "t-1530", "title": "Types All The Way Down",
 		"img": "/assets/img/2016-melbourne/speakers/Kris-Jenkins.jpg",
 		"bio": "
 			Kris Jenkins is a successful startup cofounder, turned freelance functional
@@ -302,7 +301,9 @@
 			evolving the whole system's data model - is dramatically reduced. </p>
 			"},
 
-	{ "time": "4:45pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
+	{ "time": "4pm"    , "name": "<hr />", "id": "t-1600", "title": "Break", "break": true},
+
+	{ "time": "4:15pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
 		"details": "
 			<p>Manipulating immutable data structures can involve laborious
 			pattern-matching and copying. Functional optics such as isos, lenses,
@@ -315,7 +316,7 @@
 			optics libraries, acknowledging the increasing compromises of each. </p>
 "	},
 
-	{ "time": "5:15pm" , "name": "Sean Seefried", "id": "t-1715", "title": "The Joy of Refactoring with Strong, Static Types",
+	{ "time": "4:45pm" , "name": "Sean Seefried", "id": "t-1645", "title": "The Joy of Refactoring with Strong, Static Types",
 		"img": "/assets/img/2016-melbourne/speakers/Sean-Seefried.png",
 		"bio": "
 			Sean has been interested in functional programming since 2001
@@ -337,6 +338,6 @@
 			then demonstrate the markedly different experience that a somewhat error prone
 			developer will have when refactoring the two programs. </p> "},
 
-	{ "time": "5:45pm" , "name": "Noon Silk"         , "id": "t-1745", "title": "Closing Comment", "committee": true},
+	{ "time": "5:15pm" , "name": "Noon Silk", "id": "t-1715", "title": "Closing Comment", "committee": true},
 
-	{ "time": "6pm"    , "name": "<hr />"            , "id": "t-1430", "title": "Walk Out", "break": true} ] }
+	{ "time": "6pm"    , "name": "<hr />", "id": "t-1800", "title": "Walk Out", "break": true} ] }

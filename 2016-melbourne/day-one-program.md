@@ -34,11 +34,13 @@ title: "Frequently Asked Questions"
 
         <table>
           {% for t in site.data.2016-melbourne.speakers.times %}
-            <tr>
-              <td>{{t.time}}</td>
-              <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
-              <td><a href="#{{t.id}}">{{t.title}}</a> </td>
-            </tr>
+            {% unless t.hide %}
+              <tr>
+                <td>{{t.time}}</td>
+                <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
+                <td><a href="#{{t.id}}">{{t.title}}</a> </td>
+              </tr>
+            {% endunless %}
           {% endfor %}
         </table>
 
@@ -51,6 +53,7 @@ title: "Frequently Asked Questions"
 </div>
 
 {% for t in site.data.2016-melbourne.speakers.times %}
+{% unless t.hide %}
 
   <div class="container cfpsection" id="{{t.id}}">
     <div class="row">
@@ -75,4 +78,5 @@ title: "Frequently Asked Questions"
     </div>
   </div>
 
+{% endunless %}
 {% endfor %}
