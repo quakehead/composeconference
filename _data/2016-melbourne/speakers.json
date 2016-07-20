@@ -141,7 +141,8 @@
 			benefits of using reproducible methods for all our work, for ourselves,
 			our clients, and the general community. </p> "},
 
-	{ "time": "1:30pm" , "name": "Harald Sondergaard", "id": "t-1330", "title": "Equational Reasoning and Intended Semantics in Functional Programming",
+	{ "time": "1:30pm" , "name": "Lee Naish", "id": "t-1330", "title": "Equational Reasoning and Intended Semantics in Functional Programming",
+		"img": "/assets/img/2016-melbourne/speakers/Lee-Naish.jpg",
 		"details": "
 			<p>A major advantage of functional programming languages is that they allow for
 			analysis and transformation based on 'equational reasoning'; an idea that has
@@ -173,9 +174,16 @@
 			wrong with naive equational reasoning in the presence of under-specification,
 			how it can be adapted to avoid these pitfalls, and the influence on how we
 			think about our code and design programming environments, including tools for
-			testing, debugging and verification.</p> "
-	
-	},
+			testing, debugging and verification.</p> ",
+		"bio": "
+			Lee has spent much of his life as an academic at Melbourne University,
+			pondering the following question:  How can we clarify the relationships
+			between what we want a computer to do (which is in our head), the
+			programs we write (syntactic objects), and what they make a computer do
+			(a sequence of execution states, hopefully ending up with what we
+			 wanted)?  In late 2013 he quit paid work and was diagnosed with terminal
+			prostate cancer but has continued with research, become a mamil and
+			occasionally still climbs rocks.  " },
 
 	{ "time": "2pm", "name": "Ben Hutchison", "id": "t-1400", "title": "Getting Work Done with the Eff Monad in Scala",
 		"img": "/assets/img/2016-melbourne/speakers/Ben-Hutchison.png",
@@ -267,20 +275,7 @@
 
 	{ "time": "4pm"    , "name": "<hr />"            , "id": "t-1430", "title": "Break", "break": true},
 
-	{ "time": "4:15pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
-		"details": "
-			<p>Manipulating immutable data structures can involve laborious
-			pattern-matching and copying. Functional optics such as isos, lenses,
-			prisms, traversals and folds help us compose data manipulations.
-			Manipulations can include getting, setting or modifying. </p>
-
-			<p>This presentation will show examples of optics used in production
-			business applications. It will start with PureScript's 'pure profunctor
-			lenses' library, then move on to examples in the Haskell, Scala and Java
-			optics libraries, acknowledging the increasing compromises of each. </p>
-"	},
-
-	{ "time": "4:45pm" , "name": "Kris Jenkins", "id": "t-1645", "title": "Types All The Way Down",
+	{ "time": "4:15pm" , "name": "Kris Jenkins", "id": "t-1645", "title": "Types All The Way Down",
 		"img": "/assets/img/2016-melbourne/speakers/Kris-Jenkins.jpg",
 		"bio": "
 			Kris Jenkins is a successful startup cofounder, turned freelance functional
@@ -307,7 +302,21 @@
 			evolving the whole system's data model - is dramatically reduced. </p>
 			"},
 
+	{ "time": "4:45pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
+		"details": "
+			<p>Manipulating immutable data structures can involve laborious
+			pattern-matching and copying. Functional optics such as isos, lenses,
+			prisms, traversals and folds help us compose data manipulations.
+			Manipulations can include getting, setting or modifying. </p>
+
+			<p>This presentation will show examples of optics used in production
+			business applications. It will start with PureScript's 'pure profunctor
+			lenses' library, then move on to examples in the Haskell, Scala and Java
+			optics libraries, acknowledging the increasing compromises of each. </p>
+"	},
+
 	{ "time": "5:15pm" , "name": "Sean Seefried", "id": "t-1715", "title": "The Joy of Refactoring with Strong, Static Types",
+		"img": "/assets/img/2016-melbourne/speakers/Sean-Seefried.png",
 		"bio": "
 			Sean has been interested in functional programming since 2001
 			He is attracted to both their elegance and safety and believes that they
