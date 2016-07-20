@@ -79,10 +79,18 @@
 	},
 
 	{ "time": "11:30am", "name": "Alistair Roche", "id": "t-1130", "title": "Datomic in Production",
+		"img": "/assets/img/2016-melbourne/speakers/Alistair-Roche.jpg",
 		"bio": "
 			<p>
-				Alistair has given talks before at MelbJS, MelbJVM, MFUG, clj-melb,
-				Manilla JS and Decompress on a range of topics.
+				Alistair Roche is cofounder of BookWell.com.au, a health and beauty bookings
+				platform built entirely on Clojure, ClojureScript and Datomic.
+
+				He spent three and a half years learning, talking about and proselytising the
+				word of Rich Hickey before putting his money where his mouth is.
+
+				In his darker moments he wishes he’d spent those three and a half years
+				learning a language with a strong type system. He has a lot of dark moments
+				these days.
 			</p>
 		",
 		"details": "
@@ -112,7 +120,11 @@
 				<li>How its declarative “pull syntax” makes it easy to hydrate React components </li>
 				<li>Mistakes we made with the DB schema, and how we fixed those (including data migrations) </li>
 			</ul>
-			"
+
+			<p>
+				Alistair has given talks before at MelbJS, MelbJVM, MFUG, clj-melb,
+				Manilla JS and Decompress on a range of topics.
+			</p> "
 	},
 
 	{ "time": "12pm"   , "name": "<hr />"            , "id": "t-1200", "title": "Lunch", "break": true},
