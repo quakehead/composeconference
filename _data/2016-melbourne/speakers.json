@@ -130,6 +130,7 @@
 	{ "time": "12pm"   , "name": "<hr />"            , "id": "t-1200", "title": "Lunch", "break": true},
 
 	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud-Haskell to Build a Continuous-Integration Platform for Reproducible Research",
+		"img": "/assets/img/2016-melbourne/speakers/finlay.jpg",
 		"details": "
 			<p>Cloud Haskell is a collection of libraries that have brought erlang
 			style networking patterns to the haskell language. The libraries bring
@@ -151,7 +152,14 @@
 			<p> Dragonfly is a data science team that combines research science and
 			software development experience. We are committed to realising the
 			benefits of using reproducible methods for all our work, for ourselves,
-			our clients, and the general community. </p> "},
+			our clients, and the general community. </p> ",
+        "bio":"
+            Finlay has a background in mathematics and software engineering, and is
+            technical lead at Dragonfly Data Science. He has been using haskell for
+            production systems for the last 5 years, but has tinkered with haskell for
+            longer than he cares to remember. 
+        "
+    },
 
 	{ "time": "1:30pm" , "name": "Lee Naish", "id": "t-1330", "title": "Equational Reasoning and Intended Semantics in Functional Programming",
 		"img": "/assets/img/2016-melbourne/speakers/Lee-Naish.jpg",
