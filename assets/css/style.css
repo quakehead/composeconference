@@ -299,6 +299,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 24px;
 }
 
+#hh li a {
+	white-space: nowrap;
+}
+
 #topheader #hh.melbourne {
 	margin-top: 16px;
 	margin-bottom: 16px;
