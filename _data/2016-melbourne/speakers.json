@@ -316,6 +316,11 @@
 	{ "time": "4pm"    , "name": "<hr />", "id": "t-1600", "title": "Break", "break": true},
 
 	{ "time": "4:15pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
+		"img": "/assets/img/2016-melbourne/speakers/Brian-McKenna.JPG",
+		"bio": "
+			Brian uses and teaches functional programming with Scala, Haskell,
+			PureScript and Java for Atlassian. Functional optics are the most
+			useful thing he has invested time in learning over the past few years.  ",
 		"details": "
 			<p>Manipulating immutable data structures can involve laborious
 			pattern-matching and copying. Functional optics such as isos, lenses,
