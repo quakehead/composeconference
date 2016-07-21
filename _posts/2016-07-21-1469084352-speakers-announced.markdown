@@ -1,0 +1,43 @@
+---
+layout: 2016-melbourne/news-post
+title:  "Melbourne 2016 Speakers!"
+---
+
+<style type="text/css">
+	table img {
+		width: 150px;
+	}
+	table td {
+		padding: 1em 1em 0 0;
+	}
+</style>
+
+
+C◦mp◦se :: Melbourne is extremely pleased to announce the line-up of presenters
+for <a href="/2016-melbourne/day-one-program/">Day-One</a>
+of the conference! We had a total of 31 excellent submissions after extending
+the CFP, and have selected 10 of these for our program.
+
+The program is made-up of a technically diverse selection of presentations that
+should be accessible to a wide variety of skill-levels, as well as touching on
+many different interests, including new-languages, graphics, theory, industry,
+data-science, and type-driven-development. The first day of C◦mp◦se :: Melbourne
+will open with a keynote from Manuel Chakravarty on Graphics and Animations in
+Haskell.
+
+The presentations are listed below but more details can be found on the
+<a href="/2016-melbourne/day-one-program/">Day-One</a>
+program page!
+
+<br />
+
+<table>
+	{% for t in site.data.2016-melbourne.speakers.times %}
+		{% unless t.hide or t.break or t.committee %}
+			<tr>
+				<td> <img src="{{t.img}}" /> </td>
+				<td> {{t.name}} <br /> <a href="/2016-melbourne/day-one-program/#{{t.id}}">{{t.title}}</a> </td>
+			</tr>
+		{% endunless %}
+	{% endfor %}
+</table>

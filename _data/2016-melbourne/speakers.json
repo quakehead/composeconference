@@ -365,7 +365,7 @@
 			then demonstrate the markedly different experience that a somewhat error prone
 			developer will have when refactoring the two programs. </p> "},
 
-	{ "time": "5:15pm" , "name": "Noon Silk", "id": "t-1715", "title": "Closing Comment", "committee": true},
+	{ "time": "5:15pm", "committee": true, "name": "Noon Silk", "id": "t-1715", "title": "Closing Comment", "committee": true},
 
 	{ "time": "5:20pm" , "name": "<hr />", "id": "t-1720", "title": "Wildcard", "break": true},
 
