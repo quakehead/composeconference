@@ -36,8 +36,6 @@ title: "Frequently Asked Questions"
         </table>
 
         <br />
-        <p class="text-right"> <em> ( * Details Pending ) </em> </p>
-        <br />
 
     </div>
   </div>
