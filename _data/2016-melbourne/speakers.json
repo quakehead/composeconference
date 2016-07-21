@@ -194,7 +194,9 @@
 			wrong with naive equational reasoning in the presence of under-specification,
 			how it can be adapted to avoid these pitfalls, and the influence on how we
 			think about our code and design programming environments, including tools for
-			testing, debugging and verification.</p> ",
+			testing, debugging and verification.</p> 
+            
+            <p>This is with joint work with Harald Sondergaard and Bernard Pope.</p>",
 		"bio": "
 			Lee has spent much of his life as an academic at Melbourne University,
 			pondering the following question:  How can we clarify the relationships
