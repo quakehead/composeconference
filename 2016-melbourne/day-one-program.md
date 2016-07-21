@@ -4,15 +4,6 @@ title: "Frequently Asked Questions"
 ---
 
 <style type="text/css">
-  td {
-    padding: 0 0.5em;
-  }
-  td:first-child {
-    text-align: right;
-  }
-  td:nth-child(2) {
-    white-space: nowrap;
-  }
   .container img {
     max-height: 300px;
   }
@@ -32,7 +23,7 @@ title: "Frequently Asked Questions"
         <h2 class="text-center"><em>( Times Subject to Change )</em></h2>
         <br />
 
-        <table>
+        <table class="agenda">
           {% for t in site.data.2016-melbourne.speakers.times %}
             {% unless t.hide %}
               <tr>

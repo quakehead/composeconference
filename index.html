@@ -13,7 +13,6 @@ TODO
 * Add email links
 * Create a melbourne organisers page
 * Add mailing list to the homepage
-
 -->
 
 
@@ -268,15 +267,39 @@ TODO
 			<div class="col-lg-3 col-lg-offset-3 col-sm-3 col-sm-offset-3 proc">
 				<i class="fa fa-comments"></i>
 				<a href="https://www.eventbrite.com.au/e/compose-conference-melbourne-2016-tickets-25558660642">
-					<h3>Mon, Aug 29: Conference</h3>
+                    <h3>Mon, Aug 29: Conference <small>(Day One)</small></h3>
 				</a>
 				<p></p>
 			</div>
 			<div class="col-lg-3 col-sm-3 proc">
 				<i class="fa fa-comments-o"></i>
-				<h3>Tue, Aug 30: Unconference</h3>
+                <h3>Tue, Aug 30: Unconference <small>(Day Two)</small></h3>
 				<p></p>
 			</div>
+
+
+    <div class="col-lg-10 col-lg-offset-1">
+        <h2 class="text-center">Day One - Speakers and Presentations</h1>
+        <h3 class="text-center"><em>( Times Subject to Change )</em></h2>
+        <br />
+
+        <table class="agenda">
+          {% for t in site.data.2016-melbourne.speakers.times %}
+            {% unless t.hide %}
+              <tr>
+                <td>{{t.time}}</td>
+                <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
+                <td><a href="#{{t.id}}">{{t.title}}</a> </td>
+              </tr>
+            {% endunless %}
+          {% endfor %}
+        </table>
+
+        <br />
+        <p class="text-right"> <em> ( * Details Pending ) </em> </p>
+        <br />
+
+    </div>
 		</div>
 	</div>
 </div>
