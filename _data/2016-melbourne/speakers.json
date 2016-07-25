@@ -5,6 +5,27 @@
 
 	{ "time": "9:30am" , "name": "M.M.T Chakravarty" , "id": "t-0930", "title": "Keynote - Playing with Graphics and Animations in Haskell",
 		"img": "/assets/img/people/manuel.jpg",
+		"details": "
+			<p>Graphics and animations are not only fun, they are also an effective
+			learning tool. For example, fractal tree structures nicely illustrate
+			recursion, and animations are often more motivating and engaging than
+			examples and exercises spewing out text. In this talk, I will demonstrate
+			graphics and animations in Haskell playgrounds — aka the REPL on
+			steroids. The immediate feedback of playgrounds facilitates an
+			explorative style of programming that is especially attractive for
+			graphics programming.</p>
+
+			<p>Graphics, animation, and games programming in Haskell faces a dilemma. We
+			can either use existing frameworks with their highly imperative APIs or
+			we waste a lot of energy trying to re-engineer those rather complex
+			systems from scratch. Or, maybe, we can escape the dilemma. Instead of a
+			Haskell program directly manipulating the mutable object-graph of
+			existing frameworks, we provide an API for purely functional
+			transformations of a Haskell data structure, together with an adaptation
+			layer that transcribes those transformations into edits of the mutable
+			object-graph. I will illustrate this approach by describing the
+			architecture of a Haskell binding to the animation system of Apple’s
+			SpriteKit framework.</p>",
 		"bio": "
 			<p>Manuel M T Chakravarty is an Associate Professor at the University of
 			New South Wales. His core research interests are functional programming,
