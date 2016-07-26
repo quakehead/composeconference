@@ -129,6 +129,24 @@ title: "Frequently Asked Questions"
   </div>
 </div>
 
+<div class="container cfpsection" id="faq-wifi">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Will there be WiFi at the venue? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> We are currently assessing the WiFi situation at RMIT.</p>
+        <p> We can promise that there will be WiFi available for speakers, even
+          if this means that Compose has to bring access-points ourselves. We are
+          very keen to ensure that there is WiFi present for workshops, and
+          ideally for all attendees as well. </p>
+        <p> Stay tuned for further updates. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container cfpsection" id="faq-day-2">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
