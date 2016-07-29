@@ -11,6 +11,12 @@ TODO:
 
 -->
 
+<style type="text/css">
+		.panel-default .panel-body.unrestricted-height {
+			max-height: none;
+		}
+</style>
+
 <div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
 <br />
 
@@ -41,15 +47,18 @@ TODO:
     <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
 
-    <div class="col-sm-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">Silverpond</div>
-            <div class="panel-body centered">
-                <a href="http://silverpond.com.au/">
-                  <img src="/assets/img/logos/silverpond.png" class="img-responsive" alt="Silverpond"> <br>
-                </a>
-            </div>
-        </div>
-    </div>
+	{% for t in site.data.2016-melbourne.sponsors.sponsors %}
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">{{t.name}}</div>
+					<div class="panel-body centered unrestricted-height">
+						<a href="{{t.link}}">
+						  <img src="{{t.img}}" class="img-responsive" alt="Silverpond"> <br><br>
+						</a>
+						<p> {{t.by_line}} </p>
+					</div>
+				</div>
+			</div>
+	{% endfor %}
   </div>
 </div>
