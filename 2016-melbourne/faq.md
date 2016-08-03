@@ -234,3 +234,28 @@ title: "Frequently Asked Questions"
     </div>
   </div>
 </div>
+
+<div class="container cfpsection" id="faq-audience">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2> Is There Financial Assistance Available? </h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          If you would like financial assistance to help you attend Compose ::
+          Melbourne, then please get in touch with the committee with details
+          about what help you require.
+        </p>
+        <p>
+          As we are a small new conference, we have a limited
+          financial-assistance budget, however we will help where we can!
+        </p>
+        <p>
+          Further information will be provided on
+          <a href="/2016-melbourne/assistance/">the financial-assistance page</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
