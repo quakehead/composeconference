@@ -135,7 +135,6 @@ Unconference Content:
             <a href="https://www.eventbrite.com.au/e/haskell-workshop-compose-conference-melbourne-2016-tickets-26654564520">
             Intro to Haskell - 9:00 AM to 12:00 PM - Room 80.03.15 </a>
               </li>
-          </li>
           <li>
             <a href="https://www.eventbrite.com.au/e/purescript-workshop-compose-conference-melbourne-2016-tickets-26654675853">
               Intro to Purescript - 2:30 PM to 4:30 PM - Room 80.03.6 </a>
