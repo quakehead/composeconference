@@ -61,6 +61,40 @@ Unconference Content:
 <div class="container cfpsection" id="knowmore">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Unconference</h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          As is standard practice with unconferences, topics to be decided on the day.
+          However, if you wish to <a href="mailto:composemel-admin@googlegroups.com">let the committee know</a>
+          that you are planning to announce an unconference talk on the day
+          then we would be happy to hear from you so that we can get a feel for
+          what people are offering on the second day!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection" id="knowmore">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Venue </h2>
+    </div>
+
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> RMIT Building 80 </p>
+        <p> Rooms: 80.03.06, 80.03.15 and 80.02.07.  </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection" id="knowmore">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2>Workshops</h2>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
@@ -85,56 +119,28 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container cfpsection" id="knowmore">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Unconference</h2>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          As is standard practice with unconferences, topics to be decided on the day.
-          However, if you wish to <a href="mailto:composemel-admin@googlegroups.com">let the committee know</a>
-          that you are planning to announce an unconference talk on the day
-          then we would be happy to hear from you so that we can get a feel for
-          what people are offering on the second day!
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container cfpsection" id="knowmore">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Venue TBA</h2>
-    </div>
-
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          The venue is currently still being finalised. Stay tuned for updates
-          to this page, or subscribe to the
-          <a href="mailto:http://groups.google.com/group/composemel">Compose :: Melbourne mailing list</a>
-          for updates.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container cfpsection" id="dates">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Eventbrite TBA</h2>
+      <h2>Workshop Registration</h2>
     </div>
 
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p>
-          Once the venue has been secured for the second day an Eventbrite event
-          will be created for the second day.
+          Registration for the scheduled workshops is through Eventbrite:
         </p>
+        <ul>
+          <li>
+            <a href="https://www.eventbrite.com.au/e/haskell-workshop-compose-conference-melbourne-2016-tickets-26654564520">
+            Intro to Haskell - 9:00 AM to 12:00 PM - Room 80.03.15 </a>
+              </li>
+          </li>
+          <li>
+            <a href="https://www.eventbrite.com.au/e/purescript-workshop-compose-conference-melbourne-2016-tickets-26654675853">
+              Intro to Purescript - 2:30 PM to 4:30 PM - Room 80.03.6 </a>
+              </li>
+        </ul>
       </div>
     </div>
   </div>
