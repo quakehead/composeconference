@@ -53,7 +53,7 @@ TODO:
 					<div class="panel-heading">{{t.name}}</div>
 					<div class="panel-body centered unrestricted-height">
 						<a href="{{t.link}}">
-						  <img src="{{t.img}}" class="img-responsive" alt="Silverpond"> <br><br>
+						  <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
 						</a>
 						<p> {{t.by_line}} </p>
 					</div>

@@ -2,20 +2,6 @@
 layout: 2016-melbourne/melbourne
 ---
 
-<!--
-
-TODO
-====
-
-* A bit about how this is a second 2016 conference running in Melbourne
-* Where to find information on the previous NY event
-* More Sponsors - Refer to 2016 section for non-active slides
-* Add email links
-* Create a melbourne organisers page
-* Add mailing list to the homepage
--->
-
-
 <div id="landingheader">
 	<div class="container">
 
@@ -387,84 +373,33 @@ TODO
 
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
-
-						<div class="item mb active">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-									<p>&nbsp;<br /></p>
-									<p>
-										<a href="https://www.realestate.com.au/"><img src="/assets/img/logos/rea.png" class="img-responsive" /></a>
-									</p>
-								</div>
-								<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-									<p class="centered">
-										<a href="https://www.realestate.com.au">realestate.com.au</a> - Australia lives here.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="item mb">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-									<p>&nbsp;<br /></p>
-									<p>
-										<a href="http://www.seek.com.au/"><img src="/assets/img/logos/seek.png" class="img-responsive" /></a>
-									</p>
-								</div>
-								<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-									<p class="centered">
-										<a href="http://www.seek.com.au/">seek.com.au</a>
-											- Australia's no. 1 jobs, employment, career and recruitment site.
-									</p>
+						{% for t in site.data.2016-melbourne.sponsors.sponsors %}
+							<div class="item mb {% if forloop.first == true %}active{% endif %}">
+								<div class="row">
+									<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+										<p>&nbsp;<br /></p>
+										<p>
+											<a href="{{t.link}}"><img src="{{t.img}}" class="img-responsive" /></a>
+										</p>
+									</div>
+									<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+										<p class="centered">
+											<a href="{{t.link}}">{{t.name}}</a> - {{t.by_line}}
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-
-						<div class="item mb">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-									<p>&nbsp;<br /></p>
-									<p>
-										<a href="http://silverpond.com.au"><img src="/assets/img/logos/silverpond.png" class="img-responsive" /></a>
-									</p>
-								</div>
-								<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-									<p class="centered">
-										<a href="http://silverpond.com.au">Silverpond</a> is a data-science and solutions consultancy.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="item mb">
-							<div class="row">
-								<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-									<p>&nbsp;<br /></p>
-									<p>
-										<a
-                                            href="http://yowconference.com.au"><img src="/assets/img/logos/yow-australia.png" class="img-responsive" /></a>
-									</p>
-								</div>
-								<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-									<p class="centered">
-										<a href="http://silverpond.com.au">YOW!
-                                        Australia</a> - YOW! Conference and
-                                    Workshops for Developers by Developers.
-									</p>
-								</div>
-							</div>
-						<!-- TODO: More Sponsors - Refer to 2016 section for non-active slides -->
-						</div>
+						{% endfor %}
 					</div>
-					<!-- Indicators -->
 
+					<!-- Indicators -->
 					<ol class="carousel-indicators">
-						<li data-target="#carousel-sponsors" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-sponsors" data-slide-to="1" class=""></li>
-						<li data-target="#carousel-sponsors" data-slide-to="2" class=""></li>
-						<li data-target="#carousel-sponsors" data-slide-to="3" class=""></li>
-						<li data-target="#carousel-sponsors" data-slide-to="4" class=""></li>
+						{% for t in site.data.2016-melbourne.sponsors.sponsors %}
+							<li
+								data-target="#carousel-sponsors"
+								data-slide-to="{{ forloop.index0 }}"
+								class="{% if forloop.first == true %}active{% endif %}"></li>
+						{% endfor %}
 					</ol>
 
 					<!-- Controls -->
