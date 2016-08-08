@@ -106,6 +106,8 @@ Unconference Content:
         <p>
           The Compose :: Melbourne committee will be running an "Introduction-To-Haskell"
           workshop for beginners who are interested in diving into the Haskell language.
+          As well as the Haskell workshop, Rob Howard will be running a introductory
+          Purescript workshop in the afternoon.
         </p>
         <p>
           Although the second day is a largely-unstructured event, if you wish to run
