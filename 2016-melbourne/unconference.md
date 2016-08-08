@@ -107,9 +107,10 @@ Unconference Content:
           The Compose :: Melbourne committee will be running an "Introduction-To-Haskell"
           workshop for beginners who are interested in diving into the Haskell language.
           As well as the Haskell workshop, Luke Stephenson will be running a workshop
-          on working with free-monads in conjunction with free-applicatives,
-          and Rob Howard will be running a introductory
-          Purescript workshop in the afternoon. There will be <strong>even <em>more</em></strong>
+          on working with free-monads in conjunction with free-applicatives.
+          In the afternoon Rob Howard will be running a introductory
+          Purescript workshop and Sean Seefried will be running an Adroid games-programming
+          in Haskell session... There will be <strong>even <em>more</em></strong>
           free workshops throughout the day that are not currently listed! Keep your
           eyes open!
         </p>
@@ -144,6 +145,10 @@ Unconference Content:
           <li>
             <a href="https://www.eventbrite.com.au/e/freemonad-freeapplication-freeworkshop-compose-conference-melbourne-tickets-26997341776">
               FreeMonad FreeApplication FreeWorkshop - 9:00 AM to 12:00 PM - Room 80.03.06 </a>
+              </li>
+          <li>
+            <a href="https://www.eventbrite.com.au/e/workshop-on-writing-games-for-android-in-haskell-compose-conference-melbourne-tickets-26997773066">
+              Writing games for Android in Haskell - 2:00 PM to 5:00 PM - Room 80.03.15 </a>
               </li>
           <li>
             <a href="https://www.eventbrite.com.au/e/purescript-workshop-compose-conference-melbourne-2016-tickets-26654675853">
