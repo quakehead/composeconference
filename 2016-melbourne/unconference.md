@@ -143,7 +143,7 @@ Unconference Content:
             Intro to Haskell - 9:00 AM to 12:00 PM - Room 80.03.15 </a>
               </li>
           <li>
-            <a href="https://www.eventbrite.com.au/e/freemonad-freeapplication-freeworkshop-compose-conference-melbourne-tickets-26997341776">
+            <a href="https://www.eventbrite.com.au/e/freemonad-freeapplicative-freeworkshop-compose-conference-melbourne-tickets-26997341776">
               FreeMonad FreeApplicative FreeWorkshop - 9:00 AM to 12:00 PM - Room 80.03.06 </a>
               </li>
           <li>
