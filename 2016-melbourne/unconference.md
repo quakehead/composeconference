@@ -144,7 +144,7 @@ Unconference Content:
               </li>
           <li>
             <a href="https://www.eventbrite.com.au/e/freemonad-freeapplication-freeworkshop-compose-conference-melbourne-tickets-26997341776">
-              FreeMonad FreeApplication FreeWorkshop - 9:00 AM to 12:00 PM - Room 80.03.06 </a>
+              FreeMonad FreeApplicative FreeWorkshop - 9:00 AM to 12:00 PM - Room 80.03.06 </a>
               </li>
           <li>
             <a href="https://www.eventbrite.com.au/e/workshop-on-writing-games-for-android-in-haskell-compose-conference-melbourne-tickets-26997773066">
