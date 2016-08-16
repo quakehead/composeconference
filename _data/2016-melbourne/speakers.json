@@ -1,4 +1,6 @@
 { "times": [
+	{ "time": "8:30am" , "name": "<hr />" , "id": "t-8300", "title": "Registration", "break": true},
+
 	{ "time": "9:00am" , "name": "Noon Silk" , "id": "t-0900", "title": "Introduction by the Committee",
 		"details": "Welcome to Compose :: Melbourne!",
 		"committee": true},
