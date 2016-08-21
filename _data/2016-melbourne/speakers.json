@@ -369,7 +369,7 @@
 	{ "time": "4:45pm" , "name": "Sean Seefried", "id": "t-1645", "title": "The Joy of Refactoring with Strong, Static Types",
 		"img": "/assets/img/2016-melbourne/speakers/Sean-Seefried.png",
 		"bio": "
-			Sean has been interested in functional programming since 2001
+			Sean has been interested in functional programming since 2001.
 			He is attracted to both their elegance and safety and believes that they
 			are helping push forward the frontier of programming. ",
 		"details": "
