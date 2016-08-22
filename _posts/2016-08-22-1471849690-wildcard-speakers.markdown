@@ -19,9 +19,9 @@ principles in non-fp contexts.
 
 Magdalena and Aaron both spent a year working in Clojure before moving on to
 other projects in a variety of Object-Oriented languages.  By applying the
-principles of functional programming in these other contexts, we were able to
-write cleaner, more efficient, more testable code.  We will discuss the ways in
-which our experience in FP has informed our design choices in other paradigms.
+principles of functional programming in these other contexts, they were able to
+write cleaner, more efficient, more testable code.  They will discuss the ways in
+which their experience in FP has informed their design choices in other paradigms.
 
 Have a look at [the day-one program](/2016-melbourne/day-one-program/)
 to find out where they lie in the day's line-up!
