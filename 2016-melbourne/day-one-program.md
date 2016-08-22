@@ -23,7 +23,6 @@ title: "Frequently Asked Questions"
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
         <h1 class="text-center">Day One - Speakers and Presentations</h1>
-        <h2 class="text-center"><em>( Times Subject to Change )</em></h2>
         <br />
 
         <table class="agenda">
