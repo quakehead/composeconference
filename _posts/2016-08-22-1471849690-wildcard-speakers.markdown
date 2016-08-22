@@ -1,0 +1,27 @@
+---
+layout: 2016-melbourne/news-post
+title:  "Melbourne Wildcard Speakers!"
+---
+
+For a while now, we've had a speaker's spot at the end of the day listed as "Wildcard".
+
+This is because we had one speaker who's attendance we were not certain of. Due to
+ambiguity and timing issues around how this spot would be filled, we decided to
+defer the announcement until we were certain about who would be speaking.
+
+We've now confirmed that the spot will be filled by Magdalena Cassel &amp; Aaron Edwards.
+Their talk will be "Functional Eyes" - a look into the applications of functional-programming
+principles in non-fp contexts.
+
+![Magdalena and Aaron](/assets/img/2016-melbourne/speakers/Magdalena_and_Aaron.jpg)
+
+<br />
+
+Magdalena and Aaron both spent a year working in Clojure before moving on to
+other projects in a variety of Object-Oriented languages.  By applying the
+principles of functional programming in these other contexts, we were able to
+write cleaner, more efficient, more testable code.  We will discuss the ways in
+which our experience in FP has informed our design choices in other paradigms.
+
+Have a look at [the day-one program](/2016-melbourne/day-one-program/)
+to find out where they lie in the day's line-up!
