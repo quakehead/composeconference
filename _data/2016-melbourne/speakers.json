@@ -410,6 +410,6 @@
 				experience in FP has informed our design choices in other paradigms.
 			</p>" },
 
-	{ "time": "5:45pm", "committee": true, "name": "Noon Silk", "id": "t-1745", "title": "Closing Comment", "committee": true},
+	{ "time": "5:45pm", "committee": true, "name": "Lyndon Maydwell", "id": "t-1745", "title": "Closing Comment", "committee": true},
 
 	{ "time": "6pm"    , "name": "<hr />", "id": "t-1800", "title": "Walk Out", "break": true} ] }
