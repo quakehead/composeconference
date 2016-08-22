@@ -931,12 +931,13 @@ blockquote.abstract{
 table.agenda td {
     padding: 0 0.5em;
     text-align: left;
+    vertical-align: top;
 }
 table.agenda td:first-child {
     text-align: right;
 }
 table.agenda td:nth-child(2) {
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 p.lead + blockquote.abstract{
