@@ -72,6 +72,21 @@ Unconference Content:
           then we would be happy to hear from you so that we can get a feel for
           what people are offering on the second day!
         </p>
+        <p>
+          One example of a talk that will be featured during the unconference around
+          lunch-time is Lucas Martin-King speaking about Q.
+          Q is a quasai-APL-cum-Lisp-style functional language.
+          Lucas has come to learn the language from a Python/C++ background. He
+          thought it might be an interesting perspective (or oddity!) to the
+          usual Scala/Clojure/Haskell stuff that seems to be happening.
+        </p>
+        <p>
+          Lucas's talk will be titled <code>q) -1 "Talk: Q and Answers";</code>.
+        </p>
+        <p>
+          If you attend the unconference then you can expect to see many-such
+          interesting and impromptieu presentations on day-two!
+        </p>
       </div>
     </div>
   </div>

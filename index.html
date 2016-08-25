@@ -126,13 +126,15 @@ layout: 2016-melbourne/melbourne
 						<h4> News! </h4>
 						<p style="font-size:13px">
 							The latest news and announcements related to Compose!
+
+							<!-- TODO: Add a news page for all posts. -->
 						</p>
 					</div>
 
 					<div class="col-sm-8 col-xs-12 block">
 						<div class="news">
 							<table style="margin: auto;">
-								{% for post in site.posts %}
+								{% for post in site.posts limit:5 %}
 									<tr>
 										<td style="padding: 0 2em; text-align: left;">
 											<a class="landing-link" href="{{ post.url }}">{{ post.title }}</a>
