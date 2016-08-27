@@ -11,6 +11,12 @@ sponsors:
     by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
     img:       '/assets/img/logos/seek.png'
 
+  - name:      'YesLogic'
+    link:      'http://www.yeslogic.com/'
+    link_text: 'YesLogic'
+    by_line:   'We develop powerful tools for the Web Age.'
+    img:       '/assets/img/logos/yeslogic.png'
+
   - name:      'Silverpond'
     link:      'http://silverpond.com.au/'
     link_text: 'Silverpond'
@@ -28,9 +34,3 @@ sponsors:
     link_text: 'RMIT University'
     by_line:   'RMIT is a global university of technology, design and enterprise.'
     img:       '/assets/img/logos/RMIT.jpg'
-
-  - name:      'YesLogic'
-    link:      'http://www.yeslogic.com/'
-    link_text: 'YesLogic'
-    by_line:   'We develop powerful tools for the Web Age.'
-    img:       '/assets/img/logos/yeslogic.png'
