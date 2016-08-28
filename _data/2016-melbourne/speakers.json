@@ -155,21 +155,21 @@
 	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud-Haskell to Build a Continuous-Integration Platform for Reproducible Research",
 		"img": "/assets/img/2016-melbourne/speakers/finlay.jpg",
 		"details": "
-			<p>Cloud Haskell is a collection of libraries that have brought erlang
-			style networking patterns to the haskell language. The libraries bring
-			together the best of haskell’s strong typing, with an opinionated
+			<p>Cloud Haskell is a collection of libraries that have brought Erlang
+			style networking patterns to the Haskell language. The libraries bring
+			together the best of Haskell’s strong typing, with an opinionated
 			approach to building distributed applications. I will provide an
-			experience report on how we have used cloud haskell, and haskell in
+			experience report on how we have used Cloud Haskell, and Haskell in
 			general, to build a continuous integration platform to support the rest
 			of our data science work. The project has been successful in our
 			organisation, and is starting to be used by other partner organisations.
-			I believe that haskell has helped development by making it easy to
+			I believe that Haskell has helped development by making it easy to
 			refactor, while also being extremely reliable in production. Cloud
-			haskell has allowed us to scale up to hundreds of compute nodes, and tens
+			Haskell has allowed us to scale up to hundreds of compute nodes, and tens
 			of thousands of computations in parallel, without changing any code. </p>
 
 			<p> Haskell is now an essential tool at Dragonfly Data Science. I will
-			also discuss our experience with building up haskell skills across our
+			also discuss our experience with building up Haskell skills across our
 			team, and across a range of projects. </p>
 
 			<p> Dragonfly is a data science team that combines research science and
@@ -178,9 +178,9 @@
 			our clients, and the general community. </p> ",
         "bio":"
             Finlay has a background in mathematics and software engineering, and is
-            technical lead at Dragonfly Data Science. He has been using haskell for
-            production systems for the last 5 years, but has tinkered with haskell for
-            longer than he cares to remember. 
+            technical lead at Dragonfly Data Science. He has been using Haskell for
+            production systems for the last 5 years, but has tinkered with Haskell for
+            longer than he cares to remember.
         "
     },
 
