@@ -31,7 +31,11 @@ title: "Frequently Asked Questions"
               <tr>
                 <td>{{t.time}}</td>
                 <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
-                <td><a href="#{{t.id}}">{{t.title}}</a> </td>
+                <td>
+                  <a href="#{{t.id}}">{{t.title}}</a>
+                  {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
+                  {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
+                  </td>
               </tr>
             {% endunless %}
           {% endfor %}
@@ -58,6 +62,12 @@ title: "Frequently Asked Questions"
           <div class="abstract">
             {{ t.details }}
           </div>
+          {% if t.video %}
+            <div class="links">
+              <a href="{{ t.video }}">(Video)</a>
+              {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
+            </div>
+          {% endif %}
           {% if t.bio %}
             <div class="bio">
               <h3> About {{t.name}} </h3>

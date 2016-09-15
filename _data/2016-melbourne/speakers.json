@@ -7,6 +7,8 @@
 
 	{ "time": "9:30am" , "name": "M.M.T Chakravarty" , "id": "t-0930", "title": "Keynote - Playing with Graphics and Animations in Haskell",
 		"img": "/assets/img/people/manuel.jpg",
+		"video": "https://www.youtube.com/watch?v=9dk7_GDNocQ",
+		"slides": "https://speakerdeck.com/mchakravarty/playing-with-graphics-and-animations-in-haskell",
 		"details": "
 			<p>Graphics and animations are not only fun, they are also an effective
 			learning tool. For example, fractal tree structures nicely illustrate
@@ -51,6 +53,7 @@
 
 	{ "time": "10:30am", "name": "Sharon Holliday", "id": "t-1030", "title": "Practical Programming in an Exception Free World",
 		"img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
+		"video": "https://www.youtube.com/watch?v=7WTM53u09Pk",
 		"details": "
 			<p> One of the first lessons we are taught in FP is that all functions should be
 				“referentially transparent”. Amongst other implications, this means a function
