@@ -54,6 +54,7 @@
 	{ "time": "10:30am", "name": "Sharon Holliday", "id": "t-1030", "title": "Practical Programming in an Exception Free World",
 		"img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
 		"video": "https://www.youtube.com/watch?v=7WTM53u09Pk",
+        "slides": "http://www.composeconference.org/2016-melbourne/slides/ExceptionFreeWorld.pptx",
 		"details": "
 			<p> One of the first lessons we are taught in FP is that all functions should be
 				“referentially transparent”. Amongst other implications, this means a function
