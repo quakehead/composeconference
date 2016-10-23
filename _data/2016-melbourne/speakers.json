@@ -7,6 +7,8 @@
 
 	{ "time": "9:30am" , "name": "M.M.T Chakravarty" , "id": "t-0930", "title": "Keynote - Playing with Graphics and Animations in Haskell",
 		"img": "/assets/img/people/manuel.jpg",
+		"video": "https://www.youtube.com/watch?v=9dk7_GDNocQ",
+		"slides": "https://speakerdeck.com/mchakravarty/playing-with-graphics-and-animations-in-haskell",
 		"details": "
 			<p>Graphics and animations are not only fun, they are also an effective
 			learning tool. For example, fractal tree structures nicely illustrate
@@ -51,6 +53,8 @@
 
 	{ "time": "10:30am", "name": "Sharon Holliday", "id": "t-1030", "title": "Practical Programming in an Exception Free World",
 		"img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
+		"video": "https://www.youtube.com/watch?v=7WTM53u09Pk",
+		"slides": "http://www.composeconference.org/2016-melbourne/slides/ExceptionFreeWorld.pptx",
 		"details": "
 			<p> One of the first lessons we are taught in FP is that all functions should be
 				“referentially transparent”. Amongst other implications, this means a function
@@ -79,6 +83,7 @@
 
 	{ "time": "11am"   , "name": "Paul Bone", "id": "t-1100", "title": "Plasma Programming Language",
 		"img": "/assets/img/2016-melbourne/speakers/Paul-Bone.jpeg",
+		"video": "https://youtu.be/sIVzfYelaS4",
 		"bio": "
 			Paul is a talented software engineer interested in declarative
 			programming, programming language implementation, parallelism and
@@ -103,6 +108,7 @@
 
 	{ "time": "11:30am", "name": "Alistair Roche", "id": "t-1130", "title": "Datomic in Production",
 		"img": "/assets/img/2016-melbourne/speakers/Alistair-Roche.jpg",
+		"video": "https://youtu.be/0rmR80neExo",
 		"bio": "
 			<p>
 				Alistair Roche is cofounder of BookWell.com.au, a health and beauty bookings
@@ -154,6 +160,7 @@
 
 	{ "time": "1pm"    , "name": "Finlay Thompson", "id": "t-1300", "title": "Using Cloud-Haskell to Build a Continuous-Integration Platform for Reproducible Research",
 		"img": "/assets/img/2016-melbourne/speakers/finlay.jpg",
+		"video": "https://youtu.be/xbK1ZWwI13M",
 		"details": "
 			<p>Cloud Haskell is a collection of libraries that have brought Erlang
 			style networking patterns to the Haskell language. The libraries bring
@@ -186,6 +193,7 @@
 
 	{ "time": "1:30pm" , "name": "Lee Naish", "id": "t-1330", "title": "Equational Reasoning and Intended Semantics in Functional Programming",
 		"img": "/assets/img/2016-melbourne/speakers/Lee-Naish.jpg",
+		"video": "https://youtu.be/9wod5vSanrA",
 		"details": "
 			<p>A major advantage of functional programming languages is that they allow for
 			analysis and transformation based on 'equational reasoning'; an idea that has
@@ -232,6 +240,7 @@
 
 	{ "time": "2pm", "name": "Ben Hutchison", "id": "t-1400", "title": "Getting Work Done with the Eff Monad in Scala",
 		"img": "/assets/img/2016-melbourne/speakers/Ben-Hutchison.png",
+		"video": "https://youtu.be/LhGq4HlozV4",
 		"bio": "
 				Ben Hutchison works as Lead Developer of the Consumer Data team at REA Group in
 				Melbourne. He has coordinated the Melbourne Scala user group the past 7 years.
@@ -303,6 +312,7 @@
 
 	{ "time": "3:00pm" , "name": "George Wilson", "id": "t-1500", "title": "The Extended Functor Family",
 		"img": "/assets/img/2016-melbourne/speakers/George-Wilson.jpg",
+		"video": "https://youtu.be/JZPXzJ5tp9w",
 		"bio": "
 			George Wilson is an enthusiastic functional programmer from Brisbane. George
 			engineers web services at Ephox by day, and waxes poetic about lenses and all
@@ -321,6 +331,7 @@
 
 	{ "time": "3:30pm" , "name": "Kris Jenkins", "id": "t-1530", "title": "Types All The Way Down",
 		"img": "/assets/img/2016-melbourne/speakers/Kris-Jenkins.jpg",
+		"video": "https://youtu.be/sh4H8yzXnvw",
 		"bio": "
 			Kris Jenkins is a successful startup cofounder, turned freelance functional
 			programmer, and open-source enthusiast. He mostly works building user
@@ -350,6 +361,7 @@
 
 	{ "time": "4:15pm", "name": "Brian McKenna", "id": "t-1615", "title": "Productionisation of Functional Optics",
 		"img": "/assets/img/2016-melbourne/speakers/Brian-McKenna.JPG",
+		"video": "https://youtu.be/H01dw-BMmlE",
 		"bio": "
 			Brian uses and teaches functional programming with Scala, Haskell,
 			PureScript and Java for Atlassian. Functional optics are the most
@@ -368,6 +380,7 @@
 
 	{ "time": "4:45pm" , "name": "Sean Seefried", "id": "t-1645", "title": "The Joy of Refactoring with Strong, Static Types",
 		"img": "/assets/img/2016-melbourne/speakers/Sean-Seefried.png",
+		"video": "https://youtu.be/_K6UAq4hjAs",
 		"bio": "
 			Sean has been interested in functional programming since 2001.
 			He is attracted to both their elegance and safety and believes that they
@@ -391,6 +404,7 @@
 	{ "time": "5:15pm" , "name": "Magdalena Cassel &amp; Aaron Edwards", "id": "t-1715",
 		"title": "Functional Eyes: Applying Functional Principles in Other Paradigms",
 		"img": "/assets/img/2016-melbourne/speakers/Magdalena_and_Aaron_2.png",
+		"video": "https://youtu.be/xOFp-iezM_0",
 		"bio": "
 				<p>Magdalena's favorite part of being a consultant is learning a
 				totally new stack for each project.  She enjoys cross-pollinating

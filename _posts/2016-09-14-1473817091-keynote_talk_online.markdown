@@ -1,0 +1,14 @@
+---
+layout: 2016-melbourne/news-post
+title:  "Melbourne Keynote Online!"
+---
+
+We've started getting the talks back from
+[our videographer](http://manofthetree.com/)
+for the Compose :: Melbourne 2016 event.
+
+The keynote presentation by Manuel Chakravarty -
+[Playing with Graphics and Animations in Haskell](https://youtu.be/9dk7_GDNocQ)
+is now on YouTube!
+
+<iframe width="400" height="300" src="https://www.youtube.com/embed/9dk7_GDNocQ" frameborder="0" allowfullscreen></iframe>
