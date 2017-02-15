@@ -41,7 +41,7 @@ permalink: /2017/cfp/
 
 <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
     <h2>C◦mp◦se :: Conference 2017</h2>
-    <h3>Dates: Feb 2017</h3>
+    <h3>Dates: May 18-19, 2017</h3>
     <div class="name-zig"></div>
 
     <div class="col-lg-10 col-md-10 col-sm-10">
