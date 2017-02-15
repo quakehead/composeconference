@@ -2,6 +2,9 @@
 layout: 2017/page
 title: Call for Proposals
 permalink: /2017/cfp/
+redirect_from: 
+  - /cfp
+  - /call
 ---
 
 <div class="col-lg-4 col-md-4 col-sm-4 name">
