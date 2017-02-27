@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Call for Proposals
-permalink: /2016/cfp/
+
 ---
 
 <div class="col-lg-4 col-md-4 col-sm-4 name">
