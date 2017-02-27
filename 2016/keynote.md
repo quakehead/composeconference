@@ -1,7 +1,7 @@
 ---
 layout: 2016/home
 title: Compose Conference 2016
-permalink: /2016/
+permalink: /2016/keynote
 ---
 
 # Keynote Speaker
