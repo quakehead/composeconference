@@ -30,3 +30,5 @@ url: http://composeconference.org
 kramdown:
   input: GFM
   hard_wrap: false
+
+theme: jekyll-theme-slate
