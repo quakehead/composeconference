@@ -1,156 +1,29 @@
 ---
-layout: 2016-melbourne/melbourne
+layout: default
 ---
 
-<div id="landingheader">
-	<div class="container">
+<div class="wrapper">
+    <div class="container">
+        <div class="row">
 
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="row">
-					<div class="col-md-4 col-sm-4 mainblock">
-						<h2>C◦mp◦se :: Melbourne</h2>
-						<p>Monday, Aug. 29, 2016</p>
-						<p>
-							<a
-								href="https://www.google.com.au/maps/place/Swanston+Academic+Bldg,+80%2F445+Swanston+St,+Melbourne+VIC+3000/data=!4m2!3m1!1s0x6ad642cb67a2ef0f:0xc44e87b1e0494746?sa=X&ved=0ahUKEwjwr-v9pK7MAhVBn5QKHSFNBJ0Q8gEILjAD"
-								style="color:#FFF">
-									RMIT - SAB Building 80, Level 2, Room 7
-									<br class="hidden-md hidden-sm" />
-									Melbourne, Victoria, Australia 3000
-									<br/>
-							</a>
-						</p>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<div class="view view-melbourne">&nbsp;</div>
-					</div>
+            <article class="page">
+
+              <div class="entry">
+
+				<div class="jumbotron">
+				  <h2>C◦mp◦se :: Conference NYC 2017 Call for Proposals</h2>
+				  <p>May 18-19, 2017</p>
+				  <p>Compose Conference NYC 2017 dates now confirmed for May 18-19. We are seeking talk proposals for the next upcoming conference. </a>
+				  <p><a class="btn btn-default" href="/2017" role="button">Learn more</a> &nbsp; <a class="btn btn-info" href="/call" role="button">Submit a talk</a> &nbsp; <a class="btn btn-info" href="https://www.eventbrite.com/e/cmpse-conference-2017-tickets-32106159387">Get Tickets</a></p>
 				</div>
 
-				<div class="row">
-					<div class="col-md-4 col-sm-4 unconfblock">
-						<h4>
-							<a href="/2016-melbourne/unconference/"> C◦mp◦se :: Melbourne Unconference </a>
-						</h4>
-						<p style="font-size:13px">
-							<b>Tuesday, Aug. 30, 2016</b><br/>
-							RMIT - Building 80, Melbourne, Victoria, Australia 3000
-						</p>
-						<p style="font-size:13px">
-							Exchange ideas, hack on personal
-							projects, and participate in informal talks and
-							workshops.</p>
+			  </div>
+            </article>
 
-						<p style="font-size:13px" class="hidden-sm">
-							<a href="/2016-melbourne/unconference">See the unconference page for more details!</a>
-						</p>
-					</div>
-
-					<div class="col-md-4 col-sm-4 block">
-						<div class="reg">
-							<p style="margin-bottom:0;"> <!-- for some reason we need to remove the margin here... -->
-								<i class="fa fa-ticket fa-2x"></i>
-								<br />
-								<a href="https://www.eventbrite.com.au/e/compose-conference-melbourne-2016-tickets-25558660642"
-								   class="landing-link">
-									<br /> Tickets for
-									<br /> C◦mp◦se :: Melbourne
-									<br /> Conference
-								</a>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-4 block ">
-						<div class="submit">
-							<p style="margin-bottom:0;"> <!-- for some reason we need to remove the margin here... -->
-								<i class="fa fa-star fa-2x"></i>
-								<br/>
-								<br /> Get the C◦mp◦se :: Melbourne...
-								<br/> <br/>
-								<a href="http://www.redbubble.com/people/sordina/works/21829253-lambdatram" class="landing-link">
-									LambdaTram T-Shirt (and more)</a>
-								<br />
-							</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row">
-
-					<div class="col-md-4 col-sm-4 unconfblock">
-						<h4> C◦mp◦se :: Past-Conferences</h4>
-						<p style="font-size:13px">
-							<b>C◦mp◦se :: Conference</b> has run since 2015.<br/>
-							Talk and proceedings from past conferences are online:
-							<br />
-							<br class="hidden-sm" />
-							<a href="/2015">2015</a>,
-							<a href="/2016">2016</a>.
-						</p>
-					</div>
-
-					<div class="col-sm-4 block">
-						<div class="volunteer">
-							<i class="fa fa-video-camera fa-2x"></i> <br />
-							<p>
-								<br />
-								C◦mp◦se :: Melbourne 2016 is on its way,
-								<br /> but past talks are online!
-								<br />
-								<a style="font-size: 100%;" href="/2015/summary" class="landing-link">2015 (NY)</a>,
-								<a style="font-size: 100%;" href="/talks" class="landing-link"> All Talks! </a>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-4 block">
-						<div class="reg">
-							<p style="margin-bottom:0;"> <!-- for some reason we need to remove the margin here... -->
-								<i class="fa fa-ticket fa-2x"></i>
-								<br />
-								<a href="/2016-melbourne/unconference" class="landing-link">
-									<br /> Unconference Event
-									<br /> and Registrations
-								</a>
-							</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row">
-
-					<div class="col-md-4 col-sm-4 unconfblock">
-						<h4> News! </h4>
-						<p style="font-size:13px">
-							The latest news and announcements related to Compose!
-
-							<!-- TODO: Add a news page for all posts. -->
-						</p>
-					</div>
-
-					<div class="col-sm-8 col-xs-12 block">
-						<div class="news">
-							<table style="margin: auto;">
-								{% for post in site.posts limit:5 %}
-									<tr>
-										<td style="padding: 0 2em; text-align: left;">
-											<a class="landing-link" href="{{ post.url }}">{{ post.title }}</a>
-										</td>
-										<td class="hidden-xs hidden-sm"> {{ post.date | date: "%b %-d, %Y" }} </td>
-									</tr>
-								{% endfor %}
-							</table>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div><!-- row -->
-</div><!-- landingheader -->
+        </div>
+    </div>
+</div>
+<!-- /aboutwrap -->
 
 <section id="about" name="about"></section>
 
@@ -161,285 +34,63 @@ layout: 2016-melbourne/melbourne
         {% include languages-2016-melbourne.html %}
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-				<h2 style="margin-top: 0;">C◦mp◦se :: Melbourne</h2>
+				<h2 style="margin-top: 0;">About C◦mp◦se :: Conference</h2>
 				<h3>The practice and craft of functional programming</h3>
 				<div class="col-lg-6 col-md-6 col-sm-6 words-nomargin">
 					<p>
-						Compose is a conference for functional programmers, focused on
-						technologies such as Haskell, Scala, Clojure, OCaml, F#, SML and
-						others.
+						Compose is a global conference for functional programmers, focused on technologies such as Haskell, Scala, Clojure, OCaml, F#, SML and others.
 					</p>
 					<p>
-						Functional programming has been taken up widely, by industry and
-						hobbyists alike. For many of us it has renewed our belief that code
-						should be beautiful, and that programming can be as enjoyable as it
-						is practical. Compose is about bringing together functional
-						programmers of all levels of skill and experience — from technical
-						leads to novices, and from long-time hackers to students just getting
-						started.
+						Functional programming has been taken up widely, by industry and hobbyists alike. For many of us it has renewed our belief that code should be beautiful, and that programming can be as enjoyable as it is practical. Compose is about bringing together functional programmers of all levels of skill and experience — from technical
+						leads to novices, and from long-time hackers to students just getting started.
 					</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<p>
-						Our experiences have shown that the theoretical can be put
-						into practice with great success, and that topics once
-						considered “advanced” can be made understandable and spread
-						widely. For example, type systems, often considered complex,
-						can simplify our lives by teaching compilers to do some of our
-						reasoning for us.
+						Our experiences have shown that the theoretical can be put into practice with great success, and that topics once considered “advanced” can be made understandable and spread widely. For example, type systems, often considered complex,
+						can simplify our lives by teaching compilers to do some of our reasoning for us.
 					</p>
 					<p>Compose Conference has been running in New York since 2015.</p>
 					<p>C◦mp◦se :: Melbourne, in partnership with <a
-         href="http://yowconference.com.au/">YOW! Australia</a>,
-                    now brings this experience to Melbourne.</p>
+         href="http://yowconference.com.au/">YOW! Australia</a>, brings this experience to Melbourne.</p>
 				</div>
 			</div>
 		</div><!-- /row -->
 	</div><!-- /container -->
 </div><!-- /aboutwrap -->
 
-<div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
+<div class="sep lamba" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
 
 <div id="portfoliowrap">
 	<div class="container">
 		<div class="row">
-			<h1>KEYNOTE</h1>
+			<h1>PAST CONFERENCES</h1>
 		</div>
 		<div class="row mt">
 			<div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 topic">
-				<p class="text">Our invited keynote will be given by
-					<a href="http://www.cse.unsw.edu.au/~chak/">Manuel M T Chakravarty</a>,
-					<br /> titled: "<b>Playing with Graphics and Animations in Haskell</b>".
+				<p class="text">
+					<b>C◦mp◦se :: Conference</b> has run since 2015.<br/>
+					Talk and proceedings from past conferences are online:
+					<br />
+					<br class="hidden-sm" />
+
 				</p>
 			</div>
 			<div class="col-lg-2 col-md-2 col-sm-2">
-				<p><a href="http://www.cse.unsw.edu.au/~chak/">
-					<img
-						src="/assets/img/people/manuel.jpg"
-						class="center-block img-responsive" /></a>
-				</p>
-			</div>
-		</div>
-		<div class="row mt">
-			<div class="col-lg-12 topic">
 				<p>
-					Manuel M T Chakravarty is an Associate Professor at the University of
-					New South Wales. His core research interests are functional
-					programming, novel compiler technology, and high-performance computing.
-					He graduated from the University of Karlsruhe and received a doctoral
-					degree from the Berlin Institute of Technology. His major contributions
-					include work on Haskell’s foreign function interface, the C-&gt;Haskell
-					binding generator, the theory and implementation of type families in
-					the Glasgow Haskell Compiler, and the development of multiple systems
-					for data parallel programming of multicore CPUs and GPUs, including
-					Accelerate, Data Parallel Haskell, and Repa.
-				</p>
-				<p>
-					He is the principal author
-					of the interactive development environment
-					<a href="http://haskellformac.com/">Haskell for Mac</a> and he is
-					excited by the opportunities presented by the Swift programming
-					language. Most importantly, he believes in the fruitful combination of
-					theory and practice.
+					<a href="/2015">2015 NYC</a>
+					<br />
+					<a href="/2016">2016 NYC</a>
+					<br />
+					<a href="/2016-melbourne">2016 Melbourne</a>
 				</p>
 			</div>
 		</div>
-		<!--
-		<div class="row">
-			<br /> <br />
-			<div class="col-md-offset-2 col-md-8 centered" >
-				<div class="flex-video widescreen">
-					 <iframe src="https://youtube.com/embed/9TIaMRis8J0?list=PL_eJ0XdLbWzzq_03wTIMVew1gByub_wKS" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-		-->
 	</div>
 
-	<div class="container">
-		<div class="row mt centered">
-			<h1>SCHEDULE</h1>
-			<div class="col-lg-3 col-lg-offset-3 col-sm-3 col-sm-offset-3 proc">
-				<i class="fa fa-comments"></i>
-				<a href="https://www.eventbrite.com.au/e/compose-conference-melbourne-2016-tickets-25558660642">
-					<h3>Mon, Aug 29: Conference <small>(Day One)</small></h3>
-				</a>
-				<p></p>
-			</div>
-			<div class="col-lg-3 col-sm-3 proc">
-				<i class="fa fa-comments-o"></i>
-				<a href="/2016-melbourne/unconference/">
-					<h3>Tue, Aug 30: Unconference <small>(Day Two)</small></h3>
-				</a>
-				<p></p>
-			</div>
-
-
-    <div class="col-lg-10 col-lg-offset-1">
-        <h2 class="text-center">Day One - Speakers and Presentations</h1>
-        <h3 class="text-center"><em>( Times Subject to Change )</em></h2>
-        <br />
-
-        <table class="agenda">
-          {% for t in site.data.2016-melbourne.speakers.times %}
-            {% unless t.hide %}
-              <tr>
-                <td>{{t.time}}</td>
-                <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
-                <td><a href="/2016-melbourne/day-one-program/#{{t.id}}">{{t.title}}</a> </td>
-              </tr>
-            {% endunless %}
-          {% endfor %}
-        </table>
-
-        <br />
-
-    </div>
-		</div>
-	</div>
 </div>
 
-<div class="sep portfolio melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -104px;"></div>
-
-<div id="locations">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8-offset-2 centered">
-				<h1>Locations</h1>
-				<p>RMIT, Melbourne, Victoria, Australia </p>
-			</div>
-			<div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 centered">
-				<h2>Monday - Presentations</h2>
-				<p> Building 80 - 80.02.07 </p>
-				<h2>Tuesday - Workshops &amp; Unconference</h2>
-				<p> 80.03.06, 80.03.15 and 80.02.07 </p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="servicewrap">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8-offset-2 centered">
-				<h1>Registration</h1>
-			</div>
-			<div class="col-sm-8 col-sm-offset-2">
-				<table class="table table-bordered">
-					<tbody>
-						<tr><th>Event</th><th>Cost</th></tr>
-						<tr>
-							<td>
-								<!-- <a href="TODO: Eventbrite">Conference Only</a> -->
-								<a href="https://www.eventbrite.com.au/e/compose-conference-melbourne-2016-tickets-25558660642">
-									Conference Only
-									<br/>
-									(Monday, Aug 29, 2016)
-								</a>
-							</td>
-							<td>
-								<table>
-									<tr> <td>Individual (Regular)</td> <td>&nbsp;&nbsp; $165</td> </tr>
-									<tr> <td>Early-Bird          </td> <td>&nbsp;&nbsp; $110</td> </tr>
-									<tr> <td>Concession          </td> <td>&nbsp;&nbsp;  $55</td> </tr>
-								</table>
-							</td>
-						</tr>
-						<tr>
-							<td>
-                                <a href="https://www.eventbrite.com.au/e/compose-conference-melbourne-unconference-tickets-26695212098">
-                                    Unconference
-								    <br/>
-                                    (Tuesday, Aug 30, 2016)</a>
-                                <br />
-                                Workshops:
-        <ul>
-          <li>
-            <a href="https://www.eventbrite.com.au/e/haskell-workshop-compose-conference-melbourne-2016-tickets-26654564520">
-            Intro to Haskell</a>
-              </li>
-          <li>
-            <a href="https://www.eventbrite.com.au/e/freemonad-freeapplicative-freeworkshop-compose-conference-melbourne-tickets-26997341776">
-              FreeMonad FreeApplicative FreeWorkshop</a>
-              </li>
-          <li>
-            <a href="https://www.eventbrite.com.au/e/workshop-on-writing-games-for-android-in-haskell-compose-conference-melbourne-tickets-26997773066">
-              Writing games for Android in Haskell</a>
-              </li>
-          <li>
-            <a href="https://www.eventbrite.com.au/e/purescript-workshop-compose-conference-melbourne-2016-tickets-26654675853">
-              Intro to Purescript</a>
-              </li>
-        </ul>
-							</td>
-							<td>Free</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<p> Please sign up for both tickets if you're planning to attend both days of the conference. 
-                    Please also sign up for each workshop you'd like to attend
-                    on the Unconference day, so we get an idea of numbers.
-                </p>
-			</div>
-		</div>
-	</div>
-</div> <!-- servicewrap -->
-
-<div id="sponsors">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8-offset-2 col-md-8-offset-2 col-sm-8-offset-2 mt">
-
-				<div id="carousel-sponsors" class="carousel slide" data-ride="carousel">
-
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						{% for t in site.data.2016-melbourne.sponsors.sponsors %}
-							<div class="item mb {% if forloop.first == true %}active{% endif %}">
-								<div class="row">
-									<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-										<p>&nbsp;<br /></p>
-										<p>
-											<a href="{{t.link}}"><img src="{{t.img}}" class="img-responsive" /></a>
-										</p>
-									</div>
-									<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-										<p class="centered">
-											<a href="{{t.link}}">{{t.name}}</a> - {{t.by_line}}
-										</p>
-									</div>
-								</div>
-							</div>
-						{% endfor %}
-					</div>
-
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						{% for t in site.data.2016-melbourne.sponsors.sponsors %}
-							<li
-								data-target="#carousel-sponsors"
-								data-slide-to="{{ forloop.index0 }}"
-								class="{% if forloop.first == true %}active{% endif %}"></li>
-						{% endfor %}
-					</ol>
-
-					<!-- Controls -->
-					<a class="left carousel-control" href="#carousel-sponsors" role="button" data-slide="prev">
-						<span class="fa fa-angle-left"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel-sponsors" role="button" data-slide="next">
-						<span class="fa fa-angle-right"></span>
-					</a>
-				</div>
-
-			</div><!-- col-lg-8 -->
-		</div><!-- row -->
-	</div><!-- container -->
-</div>
+<div class="sep lamba" data-stellar-background-ratio="0.5" style="background-position: 50% -104px;"></div>
 
 <hr style="border:1px dotted transparent; " />
 

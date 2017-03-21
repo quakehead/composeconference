@@ -728,6 +728,12 @@ ul.speakers li {
     background-size: cover;
 }
 
+.lamba {
+    background: url(../img/header-background.png) repeat;
+    background-size: cover;
+    height: 200px;
+}
+
 /* Topics & Loactions Sections */
 #locations {
 	display: block;
